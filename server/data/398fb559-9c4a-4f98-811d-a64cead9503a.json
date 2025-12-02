@@ -1,0 +1,619 @@
+{
+  "scan_id": "b88a5122dc82222a180440dde1780ef2f0fe214a9974d8280518921bc59b8b07",
+  "generated_at": "2025-11-27T08:14:22.049529Z",
+  "host": {
+    "hostname": "TECHNOPROBE",
+    "platform": "Windows-11-10.0.26100-SP0"
+  },
+  "findings": [
+    {
+      "uid": "4aecf033babe731425b2e14dc91f6b85b03c9b728f82adc33c30988f15e368cd",
+      "type": "open_port",
+      "title": "Open port 49671",
+      "description": "Listening on :::49671",
+      "host_ip": "TECHNOPROBE",
+      "port": 49671,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49671",
+        "pid": 1648,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "4cf3fedd6df8efdecf15bccc0957da6a540a6ccac6bd63a2f683fbc32bab7605",
+      "type": "open_port",
+      "title": "Open port 49667",
+      "description": "Listening on :::49667",
+      "host_ip": "TECHNOPROBE",
+      "port": 49667,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49667",
+        "pid": 4056,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "5d9a31c9958c861b92ae4695c7dc3abb66713ebd049445f7660378f1f1240d3c",
+      "type": "open_port",
+      "title": "Open port 57621",
+      "description": "Listening on 0.0.0.0:57621",
+      "host_ip": "TECHNOPROBE",
+      "port": 57621,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:57621",
+        "pid": 23008,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "5e7cf97b947c4bc619f0fd16a98ff8ed4ddfcd98af84cb043f8cd33f34ed1a2a",
+      "type": "open_port",
+      "title": "Open port 27339",
+      "description": "Listening on 127.0.0.1:27339",
+      "host_ip": "TECHNOPROBE",
+      "port": 27339,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:27339",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "1b32fab3ac0af9ceb60cd809ac2895b0334f3fd6d2b34fd3bc3e89a62e6c0617",
+      "type": "open_port",
+      "title": "Open port 49666",
+      "description": "Listening on 0.0.0.0:49666",
+      "host_ip": "TECHNOPROBE",
+      "port": 49666,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49666",
+        "pid": 2892,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "f70cf594228ab906038c44562571c6d47a270bc80eedcbda8c6c4e326479b238",
+      "type": "open_port",
+      "title": "Open port 24830",
+      "description": "Listening on 127.0.0.1:24830",
+      "host_ip": "TECHNOPROBE",
+      "port": 24830,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:24830",
+        "pid": 5712,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "a0b1af53a7e24af229b43d5b1bf938ad39a0b0da22feed42b3e5187c635cb069",
+      "type": "open_port",
+      "title": "Open port 49664",
+      "description": "Listening on :::49664",
+      "host_ip": "TECHNOPROBE",
+      "port": 49664,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49664",
+        "pid": 1700,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "type": "open_port",
+      "title": "Open port 139",
+      "description": "Listening on 192.168.56.1:139",
+      "host_ip": "TECHNOPROBE",
+      "port": 139,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "192.168.56.1:139",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "307f95f560e858f77088d99d39eb8dd07d0c02821eac8c2e2f701cd8cdbe6efe",
+      "type": "open_port",
+      "title": "Open port 135",
+      "description": "Listening on 0.0.0.0:135",
+      "host_ip": "TECHNOPROBE",
+      "port": 135,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:135",
+        "pid": 2044,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "2ff166e773f9e4f82abbba8b8bdbf2730be69e3f5f8eb8b3cc9b3962f3c895b3",
+      "type": "open_port",
+      "title": "Open port 7070",
+      "description": "Listening on :::7070",
+      "host_ip": "TECHNOPROBE",
+      "port": 7070,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::7070",
+        "pid": 5696,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "3bf1f54c666f8c1a3dacc4f225f6e49afcc180b8125733c1d92d4f77e4d09dac",
+      "type": "open_port",
+      "title": "Open port 50100",
+      "description": "Listening on 127.0.0.1:50100",
+      "host_ip": "TECHNOPROBE",
+      "port": 50100,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:50100",
+        "pid": 20644,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "type": "open_port",
+      "title": "Open port 139",
+      "description": "Listening on 10.1.74.216:139",
+      "host_ip": "TECHNOPROBE",
+      "port": 139,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "10.1.74.216:139",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "bf0e21194e9e6455baafea1bbfddd4847c5224f4dc264e2581cce648ffc4a8f3",
+      "type": "open_port",
+      "title": "Open port 13032",
+      "description": "Listening on 127.0.0.1:13032",
+      "host_ip": "TECHNOPROBE",
+      "port": 13032,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:13032",
+        "pid": 20644,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9b9898a550b354b12cf35274f26b8799368a556603427c916ee4e504618d3a64",
+      "type": "open_port",
+      "title": "Open port 49668",
+      "description": "Listening on 0.0.0.0:49668",
+      "host_ip": "TECHNOPROBE",
+      "port": 49668,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49668",
+        "pid": 5148,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "7f27d376e65a7dd66ebf5c97bb680a05d51861d38b855e43f27ee73e2aa8c951",
+      "type": "open_port",
+      "title": "Open port 1042",
+      "description": "Listening on 127.0.0.1:1042",
+      "host_ip": "TECHNOPROBE",
+      "port": 1042,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:1042",
+        "pid": 14996,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "4aecf033babe731425b2e14dc91f6b85b03c9b728f82adc33c30988f15e368cd",
+      "type": "open_port",
+      "title": "Open port 49671",
+      "description": "Listening on 0.0.0.0:49671",
+      "host_ip": "TECHNOPROBE",
+      "port": 49671,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49671",
+        "pid": 1648,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "5eacb301c15ed63e0929f3ddaa3b8254a050474eee973cfd8587472b49b05085",
+      "type": "open_port",
+      "title": "Open port 22112",
+      "description": "Listening on 127.0.0.1:22112",
+      "host_ip": "TECHNOPROBE",
+      "port": 22112,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:22112",
+        "pid": 6236,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "4b3ac678167d72111fe11d17e1f3c0c32108b2f858a139b10bf11ffea9832df5",
+      "type": "open_port",
+      "title": "Open port 5040",
+      "description": "Listening on 0.0.0.0:5040",
+      "host_ip": "TECHNOPROBE",
+      "port": 5040,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:5040",
+        "pid": 13204,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "3e3d1bf8e038b0c295794c41ea621540d1410d970336bc087005e62cf18ad474",
+      "type": "open_port",
+      "title": "Open port 49739",
+      "description": "Listening on 0.0.0.0:49739",
+      "host_ip": "TECHNOPROBE",
+      "port": 49739,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49739",
+        "pid": 23008,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "4cf3fedd6df8efdecf15bccc0957da6a540a6ccac6bd63a2f683fbc32bab7605",
+      "type": "open_port",
+      "title": "Open port 49667",
+      "description": "Listening on 0.0.0.0:49667",
+      "host_ip": "TECHNOPROBE",
+      "port": 49667,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49667",
+        "pid": 4056,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "61cc745ab627f01b72b80fb332c54a42c276cbf40ed02e5aa7b0e1edbcdf6179",
+      "type": "open_port",
+      "title": "Open port 7778",
+      "description": "Listening on 127.0.0.1:7778",
+      "host_ip": "TECHNOPROBE",
+      "port": 7778,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:7778",
+        "pid": 5672,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9e6c5759ed91059225b455495befa0eb1dfa04b197140753ad883018a276577f",
+      "type": "open_port",
+      "title": "Open port 49665",
+      "description": "Listening on 0.0.0.0:49665",
+      "host_ip": "TECHNOPROBE",
+      "port": 49665,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49665",
+        "pid": 1524,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "type": "open_port",
+      "title": "Open port 139",
+      "description": "Listening on 10.1.82.94:139",
+      "host_ip": "TECHNOPROBE",
+      "port": 139,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "10.1.82.94:139",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "314edcc8f51116a829c33dbf9588a37e159620d0d38c2154fe5c1fa788ece992",
+      "type": "open_port",
+      "title": "Open port 13031",
+      "description": "Listening on 127.0.0.1:13031",
+      "host_ip": "TECHNOPROBE",
+      "port": 13031,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:13031",
+        "pid": 20644,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9e6c5759ed91059225b455495befa0eb1dfa04b197140753ad883018a276577f",
+      "type": "open_port",
+      "title": "Open port 49665",
+      "description": "Listening on :::49665",
+      "host_ip": "TECHNOPROBE",
+      "port": 49665,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49665",
+        "pid": 1524,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "1b32fab3ac0af9ceb60cd809ac2895b0334f3fd6d2b34fd3bc3e89a62e6c0617",
+      "type": "open_port",
+      "title": "Open port 49666",
+      "description": "Listening on :::49666",
+      "host_ip": "TECHNOPROBE",
+      "port": 49666,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49666",
+        "pid": 2892,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "b0a51c77e36d1e1242c66ff8ca3d9b50eaf2b1cf87faa99c036830a379e9dda8",
+      "type": "open_port",
+      "title": "Open port 445",
+      "description": "Listening on 0.0.0.0:445",
+      "host_ip": "TECHNOPROBE",
+      "port": 445,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:445",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "23cc0ab84ae82b4b2a7adb803600a2109507602efad0dfa58cae8fe5656050fd",
+      "type": "open_port",
+      "title": "Open port 9012",
+      "description": "Listening on 127.0.0.1:9012",
+      "host_ip": "TECHNOPROBE",
+      "port": 9012,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:9012",
+        "pid": 23848,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "8155fc04ef89e645cdb9ce7ad0354a012032ce6cf7fc63d3b0d4730201f8a195",
+      "type": "open_port",
+      "title": "Open port 51100",
+      "description": "Listening on 127.0.0.1:51100",
+      "host_ip": "TECHNOPROBE",
+      "port": 51100,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:51100",
+        "pid": 15332,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "2ff166e773f9e4f82abbba8b8bdbf2730be69e3f5f8eb8b3cc9b3962f3c895b3",
+      "type": "open_port",
+      "title": "Open port 7070",
+      "description": "Listening on 0.0.0.0:7070",
+      "host_ip": "TECHNOPROBE",
+      "port": 7070,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:7070",
+        "pid": 5696,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "5f19efd9d6a2694139ce16e44a1e790c09294861ddb5879eff41fd31a1e3207e",
+      "type": "open_port",
+      "title": "Open port 1043",
+      "description": "Listening on 127.0.0.1:1043",
+      "host_ip": "TECHNOPROBE",
+      "port": 1043,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:1043",
+        "pid": 14996,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "c7ce58283a631456e9b27fd0969168b0ae83fc83443d79bad68b0e08388378db",
+      "type": "open_port",
+      "title": "Open port 8000",
+      "description": "Listening on 127.0.0.1:8000",
+      "host_ip": "TECHNOPROBE",
+      "port": 8000,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:8000",
+        "pid": 2360,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "307f95f560e858f77088d99d39eb8dd07d0c02821eac8c2e2f701cd8cdbe6efe",
+      "type": "open_port",
+      "title": "Open port 135",
+      "description": "Listening on :::135",
+      "host_ip": "TECHNOPROBE",
+      "port": 135,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::135",
+        "pid": 2044,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "05f3a04e371895c69e73bf1a11b1982300c65e60dbd84479cce589db5b21bd87",
+      "type": "open_port",
+      "title": "Open port 9013",
+      "description": "Listening on 127.0.0.1:9013",
+      "host_ip": "TECHNOPROBE",
+      "port": 9013,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:9013",
+        "pid": 23848,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "9b9898a550b354b12cf35274f26b8799368a556603427c916ee4e504618d3a64",
+      "type": "open_port",
+      "title": "Open port 49668",
+      "description": "Listening on :::49668",
+      "host_ip": "TECHNOPROBE",
+      "port": 49668,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49668",
+        "pid": 5148,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "77665d2400559c065c1f6b4c71dd2fc9b1fa785ad3368b4dac593d8fea97c795",
+      "type": "open_port",
+      "title": "Open port 4017",
+      "description": "Listening on 127.0.0.1:4017",
+      "host_ip": "TECHNOPROBE",
+      "port": 4017,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:4017",
+        "pid": 23612,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "6fee8af527d9b413ed773933ff182fcdaca9e083f52befbc338e0746dc6b8e9d",
+      "type": "open_port",
+      "title": "Open port 13030",
+      "description": "Listening on 127.0.0.1:13030",
+      "host_ip": "TECHNOPROBE",
+      "port": 13030,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:13030",
+        "pid": 6236,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "b0a51c77e36d1e1242c66ff8ca3d9b50eaf2b1cf87faa99c036830a379e9dda8",
+      "type": "open_port",
+      "title": "Open port 445",
+      "description": "Listening on :::445",
+      "host_ip": "TECHNOPROBE",
+      "port": 445,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::445",
+        "pid": 4,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "511a5307331dd7c90c32d78a1e3475525fcb30d402b41a958c4b2e81ab1da5c0",
+      "type": "open_port",
+      "title": "Open port 7768",
+      "description": "Listening on 127.0.0.1:7768",
+      "host_ip": "TECHNOPROBE",
+      "port": 7768,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:7768",
+        "pid": 23008,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "a0b1af53a7e24af229b43d5b1bf938ad39a0b0da22feed42b3e5187c635cb069",
+      "type": "open_port",
+      "title": "Open port 49664",
+      "description": "Listening on 0.0.0.0:49664",
+      "host_ip": "TECHNOPROBE",
+      "port": 49664,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49664",
+        "pid": 1700,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "95822cb2e7614a4a75e611ddeef0a2446851c2fa1f3a95ae8d31ad72db05abc7",
+      "type": "open_port",
+      "title": "Open port 50923",
+      "description": "Listening on 127.0.0.1:50923",
+      "host_ip": "TECHNOPROBE",
+      "port": 50923,
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:50923",
+        "pid": 5672,
+        "type": "1"
+      }
+    },
+    {
+      "uid": "8473efc1934491bd435d8ba243d343cbb6603340dc625051ec3b258391b733b3",
+      "type": "missing_patch",
+      "title": "Missing patch KB999999",
+      "description": "KB999999 not present in hotfix list (demo rule)",
+      "host_ip": "TECHNOPROBE",
+      "port": null,
+      "severity": "HIGH",
+      "evidence": [
+        {
+          "HotFixID": "KB5066131",
+          "InstalledOn": {
+            "value": "/Date(1763404200000)/",
+            "DateTime": "18 November 2025 12.00.00 AM"
+          }
+        },
+        {
+          "HotFixID": "KB5066835",
+          "InstalledOn": {
+            "value": "/Date(1760466600000)/",
+            "DateTime": "15 October 2025 12.00.00 AM"
+          }
+        },
+        {
+          "HotFixID": "KB5067360",
+          "InstalledOn": {
+            "value": "/Date(1760466600000)/",
+            "DateTime": "15 October 2025 12.00.00 AM"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_findings": 42
+  }
+}

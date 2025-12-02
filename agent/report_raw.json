@@ -1,0 +1,3518 @@
+{
+  "hostname": "TECHNOPROBE",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "time": "2025-12-01T05:29:36.400965Z",
+  "listening": [
+    {
+      "laddr": "127.0.0.1:51100",
+      "pid": 11540,
+      "type": "1",
+      "port": 51100,
+      "process_name": "ArmouryCrate.UserSessionHelper.exe",
+      "service_name": "ArmouryCrate.UserSessionHelper.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:7778",
+      "pid": 5520,
+      "type": "1",
+      "port": 7778,
+      "process_name": "ArmouryCrateControlInterface.exe",
+      "service_name": "ArmouryCrateControlInterface.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:9013",
+      "pid": 3548,
+      "type": "1",
+      "port": 9013,
+      "process_name": "ArmourySocketServer.exe",
+      "service_name": "ArmourySocketServer.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:22112",
+      "pid": 5792,
+      "type": "1",
+      "port": 22112,
+      "process_name": "ROGLiveService.exe",
+      "service_name": "ROGLiveService.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:49667",
+      "pid": 3448,
+      "type": "1",
+      "port": 49667,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:7070",
+      "pid": 5496,
+      "type": "1",
+      "port": 7070,
+      "process_name": "AnyDesk.exe",
+      "service_name": "AnyDesk.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:49668",
+      "pid": 4688,
+      "type": "1",
+      "port": 49668,
+      "process_name": "spoolsv.exe",
+      "service_name": "spoolsv.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::7070",
+      "pid": 5496,
+      "type": "1",
+      "port": 7070,
+      "process_name": "AnyDesk.exe",
+      "service_name": "AnyDesk.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:49664",
+      "pid": 1752,
+      "type": "1",
+      "port": 49664,
+      "process_name": "lsass.exe",
+      "service_name": "lsass.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:1043",
+      "pid": 5824,
+      "type": "1",
+      "port": 1043,
+      "process_name": "asus_framework.exe",
+      "service_name": "asus_framework.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "192.168.56.1:139",
+      "pid": 4,
+      "type": "1",
+      "port": 139,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "NetBIOS"
+    },
+    {
+      "laddr": "127.0.0.1:5608",
+      "pid": 4216,
+      "type": "1",
+      "port": 5608,
+      "process_name": "Code.exe",
+      "service_name": "Code.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49664",
+      "pid": 1752,
+      "type": "1",
+      "port": 49664,
+      "process_name": "lsass.exe",
+      "service_name": "lsass.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49667",
+      "pid": 3448,
+      "type": "1",
+      "port": 49667,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:49671",
+      "pid": 1680,
+      "type": "1",
+      "port": 49671,
+      "process_name": "services.exe",
+      "service_name": "services.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:9012",
+      "pid": 3548,
+      "type": "1",
+      "port": 9012,
+      "process_name": "ArmourySocketServer.exe",
+      "service_name": "ArmourySocketServer.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:13030",
+      "pid": 5792,
+      "type": "1",
+      "port": 13030,
+      "process_name": "ROGLiveService.exe",
+      "service_name": "ROGLiveService.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::445",
+      "pid": 4,
+      "type": "1",
+      "port": 445,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "SMB"
+    },
+    {
+      "laddr": "127.0.0.1:50923",
+      "pid": 5520,
+      "type": "1",
+      "port": 50923,
+      "process_name": "ArmouryCrateControlInterface.exe",
+      "service_name": "ArmouryCrateControlInterface.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:13032",
+      "pid": 5512,
+      "type": "1",
+      "port": 13032,
+      "process_name": "ArmouryCrate.Service.exe",
+      "service_name": "ArmouryCrate.Service.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49668",
+      "pid": 4688,
+      "type": "1",
+      "port": 49668,
+      "process_name": "spoolsv.exe",
+      "service_name": "spoolsv.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49666",
+      "pid": 2880,
+      "type": "1",
+      "port": 49666,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:8000",
+      "pid": 2268,
+      "type": "1",
+      "port": 8000,
+      "process_name": "python.exe",
+      "service_name": "python.exe",
+      "service_type": "HTTP-Alt"
+    },
+    {
+      "laddr": "127.0.0.1:7768",
+      "pid": 9528,
+      "type": "1",
+      "port": 7768,
+      "process_name": "Spotify.exe",
+      "service_name": "Spotify.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:49666",
+      "pid": 2880,
+      "type": "1",
+      "port": 49666,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49665",
+      "pid": 1548,
+      "type": "1",
+      "port": 49665,
+      "process_name": "wininit.exe",
+      "service_name": "wininit.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:57621",
+      "pid": 9528,
+      "type": "1",
+      "port": 57621,
+      "process_name": "Spotify.exe",
+      "service_name": "Spotify.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "10.1.191.151:139",
+      "pid": 4,
+      "type": "1",
+      "port": 139,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "NetBIOS"
+    },
+    {
+      "laddr": "0.0.0.0:60956",
+      "pid": 9528,
+      "type": "1",
+      "port": 60956,
+      "process_name": "Spotify.exe",
+      "service_name": "Spotify.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:445",
+      "pid": 4,
+      "type": "1",
+      "port": 445,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "SMB"
+    },
+    {
+      "laddr": "127.0.0.1:50100",
+      "pid": 5512,
+      "type": "1",
+      "port": 50100,
+      "process_name": "ArmouryCrate.Service.exe",
+      "service_name": "ArmouryCrate.Service.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::49671",
+      "pid": 1680,
+      "type": "1",
+      "port": 49671,
+      "process_name": "services.exe",
+      "service_name": "services.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:27339",
+      "pid": 4,
+      "type": "1",
+      "port": 27339,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "10.1.191.119:139",
+      "pid": 4,
+      "type": "1",
+      "port": 139,
+      "process_name": "System",
+      "service_name": "System",
+      "service_type": "NetBIOS"
+    },
+    {
+      "laddr": "127.0.0.1:13031",
+      "pid": 5512,
+      "type": "1",
+      "port": 13031,
+      "process_name": "ArmouryCrate.Service.exe",
+      "service_name": "ArmouryCrate.Service.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "0.0.0.0:135",
+      "pid": 1996,
+      "type": "1",
+      "port": 135,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "RPC"
+    },
+    {
+      "laddr": "0.0.0.0:49665",
+      "pid": 1548,
+      "type": "1",
+      "port": 49665,
+      "process_name": "wininit.exe",
+      "service_name": "wininit.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:24830",
+      "pid": 5476,
+      "type": "1",
+      "port": 24830,
+      "process_name": "AsusSoftwareManager.exe",
+      "service_name": "AsusSoftwareManager.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": ":::135",
+      "pid": 1996,
+      "type": "1",
+      "port": 135,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "RPC"
+    },
+    {
+      "laddr": "0.0.0.0:5040",
+      "pid": 11908,
+      "type": "1",
+      "port": 5040,
+      "process_name": "svchost.exe",
+      "service_name": "svchost.exe",
+      "service_type": "Unknown"
+    },
+    {
+      "laddr": "127.0.0.1:1042",
+      "pid": 5824,
+      "type": "1",
+      "port": 1042,
+      "process_name": "asus_framework.exe",
+      "service_name": "asus_framework.exe",
+      "service_type": "Unknown"
+    }
+  ],
+  "processes": [
+    {
+      "pid": 0,
+      "name": "System Idle Process",
+      "exe": null
+    },
+    {
+      "pid": 4,
+      "name": "System",
+      "exe": ""
+    },
+    {
+      "pid": 236,
+      "name": "",
+      "exe": ""
+    },
+    {
+      "pid": 280,
+      "name": "Registry",
+      "exe": "Registry"
+    },
+    {
+      "pid": 792,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 812,
+      "name": "smss.exe",
+      "exe": "C:\\Windows\\System32\\smss.exe"
+    },
+    {
+      "pid": 1400,
+      "name": "csrss.exe",
+      "exe": "C:\\Windows\\System32\\csrss.exe"
+    },
+    {
+      "pid": 1444,
+      "name": "AMDRSServ.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.22.20073.0_x64__0a9344xs7nr4m\\radeonsoftware\\AMDRSServ.exe"
+    },
+    {
+      "pid": 1548,
+      "name": "wininit.exe",
+      "exe": "C:\\Windows\\System32\\wininit.exe"
+    },
+    {
+      "pid": 1572,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 1656,
+      "name": "backgroundTaskHost.exe",
+      "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+    },
+    {
+      "pid": 1680,
+      "name": "services.exe",
+      "exe": "C:\\Windows\\System32\\services.exe"
+    },
+    {
+      "pid": 1744,
+      "name": "LsaIso.exe",
+      "exe": "C:\\Windows\\System32\\LsaIso.exe"
+    },
+    {
+      "pid": 1752,
+      "name": "lsass.exe",
+      "exe": "C:\\Windows\\System32\\lsass.exe"
+    },
+    {
+      "pid": 1824,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 1908,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 1940,
+      "name": "fontdrvhost.exe",
+      "exe": "C:\\Windows\\System32\\fontdrvhost.exe"
+    },
+    {
+      "pid": 1996,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2024,
+      "name": "parsecd.exe",
+      "exe": "C:\\Program Files\\Parsec\\parsecd.exe"
+    },
+    {
+      "pid": 2028,
+      "name": "WUDFHost.exe",
+      "exe": "C:\\Windows\\System32\\WUDFHost.exe"
+    },
+    {
+      "pid": 2036,
+      "name": "EpicWebHelper.exe",
+      "exe": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Engine\\Binaries\\Win64\\EpicWebHelper.exe"
+    },
+    {
+      "pid": 2192,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2228,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2268,
+      "name": "python.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+    },
+    {
+      "pid": 2376,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2388,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2420,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2452,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2464,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2484,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 2492,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2508,
+      "name": "AsusOSD.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSOptimization\\AsusOSD.exe"
+    },
+    {
+      "pid": 2632,
+      "name": "AggregatorHost.exe",
+      "exe": "C:\\Windows\\System32\\AggregatorHost.exe"
+    },
+    {
+      "pid": 2736,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2756,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2764,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2772,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2804,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 2856,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2872,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 2880,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3068,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3108,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3148,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3176,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 3200,
+      "name": "atiesrxx.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0382030.inf_amd64_c27c1f19988d7c7e\\B381533\\atiesrxx.exe"
+    },
+    {
+      "pid": 3252,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3416,
+      "name": "AsusCertService.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\AsusCertService\\1.2.40\\AsusCertService.exe"
+    },
+    {
+      "pid": 3448,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3468,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3496,
+      "name": "nvcontainer.exe",
+      "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+    },
+    {
+      "pid": 3520,
+      "name": "atieclxx.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0382030.inf_amd64_c27c1f19988d7c7e\\B381533\\atieclxx.exe"
+    },
+    {
+      "pid": 3548,
+      "name": "ArmourySocketServer.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\dll\\ArmourySocketServer\\ArmourySocketServer.exe"
+    },
+    {
+      "pid": 3584,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3652,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3808,
+      "name": "helperservice.exe",
+      "exe": "C:\\Program Files\\Softdeluxe\\Free Download Manager\\helperservice.exe"
+    },
+    {
+      "pid": 3856,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3884,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3908,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 3924,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 3936,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4060,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 4092,
+      "name": "amdfendrsr.exe",
+      "exe": "C:\\Windows\\System32\\amdfendrsr.exe"
+    },
+    {
+      "pid": 4212,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4216,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 4236,
+      "name": "SecurityHealthSystray.exe",
+      "exe": "C:\\Windows\\System32\\SecurityHealthSystray.exe"
+    },
+    {
+      "pid": 4240,
+      "name": "AsusOptimizationStartupTask.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSOptimization\\AsusOptimizationStartupTask.exe"
+    },
+    {
+      "pid": 4288,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4292,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4304,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4380,
+      "name": "MemCompression",
+      "exe": "MemCompression"
+    },
+    {
+      "pid": 4424,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4480,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4488,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4628,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4688,
+      "name": "spoolsv.exe",
+      "exe": "C:\\Windows\\System32\\spoolsv.exe"
+    },
+    {
+      "pid": 4692,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4720,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 4828,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5028,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5060,
+      "name": "AsusOptimization.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSOptimization\\AsusOptimization.exe"
+    },
+    {
+      "pid": 5068,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5164,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5280,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5336,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 5428,
+      "name": "CrossDeviceResume.exe",
+      "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe"
+    },
+    {
+      "pid": 5460,
+      "name": "armsvc.exe",
+      "exe": "C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\armsvc.exe"
+    },
+    {
+      "pid": 5468,
+      "name": "AsusAppService.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\AsusAppService\\AsusAppService.exe"
+    },
+    {
+      "pid": 5476,
+      "name": "AsusSoftwareManager.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSSoftwareManager\\AsusSoftwareManager.exe"
+    },
+    {
+      "pid": 5488,
+      "name": "AsusPTPService.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asusptpfilter.inf_amd64_1e467870260bcd2f\\AsusPTPService.exe"
+    },
+    {
+      "pid": 5496,
+      "name": "AnyDesk.exe",
+      "exe": "C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe"
+    },
+    {
+      "pid": 5504,
+      "name": "AsusSwitch.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSSwitch\\AsusSwitch.exe"
+    },
+    {
+      "pid": 5512,
+      "name": "ArmouryCrate.Service.exe",
+      "exe": "C:\\Program Files\\ASUS\\Armoury Crate Service\\ArmouryCrate.Service.exe"
+    },
+    {
+      "pid": 5520,
+      "name": "ArmouryCrateControlInterface.exe",
+      "exe": "C:\\Windows\\System32\\ASUSACCI\\ArmouryCrateControlInterface.exe"
+    },
+    {
+      "pid": 5528,
+      "name": "AsusSystemAnalysis.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSSystemAnalysis\\AsusSystemAnalysis.exe"
+    },
+    {
+      "pid": 5536,
+      "name": "smartscreen.exe",
+      "exe": "C:\\Windows\\System32\\smartscreen.exe"
+    },
+    {
+      "pid": 5540,
+      "name": "AsusSystemDiagnosis.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\asussci2.inf_amd64_1c054a83d803f0c0\\ASUSSystemDiagnosis\\AsusSystemDiagnosis.exe"
+    },
+    {
+      "pid": 5548,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5556,
+      "name": "DtsApo4Service.exe",
+      "exe": "C:\\Windows\\System32\\DTS\\PC\\APO4x\\DtsApo4Service.exe"
+    },
+    {
+      "pid": 5568,
+      "name": "GameSDK.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\GameSDK Service\\GameSDK.exe"
+    },
+    {
+      "pid": 5612,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5620,
+      "name": "OfficeClickToRun.exe",
+      "exe": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"
+    },
+    {
+      "pid": 5628,
+      "name": "LightingService.exe",
+      "exe": "C:\\Program Files (x86)\\LightingService\\LightingService.exe"
+    },
+    {
+      "pid": 5636,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5644,
+      "name": "nvcontainer.exe",
+      "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+    },
+    {
+      "pid": 5660,
+      "name": "warp-svc.exe",
+      "exe": "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\warp-svc.exe"
+    },
+    {
+      "pid": 5672,
+      "name": "MpDefenderCoreService.exe",
+      "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25100.9008-0\\MpDefenderCoreService.exe"
+    },
+    {
+      "pid": 5792,
+      "name": "ROGLiveService.exe",
+      "exe": "C:\\Program Files\\ASUS\\ROG Live Service\\ROGLiveService.exe"
+    },
+    {
+      "pid": 5800,
+      "name": "RtkAudUService64.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_179f26ff7cd32d0f\\RtkAudUService64.exe"
+    },
+    {
+      "pid": 5812,
+      "name": "UltraViewer_Service.exe",
+      "exe": "C:\\Program Files (x86)\\UltraViewer\\UltraViewer_Service.exe"
+    },
+    {
+      "pid": 5824,
+      "name": "asus_framework.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\asus_framework.exe"
+    },
+    {
+      "pid": 5828,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5864,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5888,
+      "name": "pservice.exe",
+      "exe": "C:\\Program Files\\Parsec\\pservice.exe"
+    },
+    {
+      "pid": 5896,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5912,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 5940,
+      "name": "FileCoAuth.exe",
+      "exe": "C:\\Program Files\\Microsoft OneDrive\\25.209.1026.0002\\FileCoAuth.exe"
+    },
+    {
+      "pid": 5988,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 6016,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 6044,
+      "name": "MsMpEng.exe",
+      "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25100.9008-0\\MsMpEng.exe"
+    },
+    {
+      "pid": 6152,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 6172,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 6252,
+      "name": "RuntimeBroker.exe",
+      "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+    },
+    {
+      "pid": 6856,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 6988,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 7148,
+      "name": "NgcIso.exe",
+      "exe": "C:\\Windows\\System32\\NgcIso.exe"
+    },
+    {
+      "pid": 7440,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 7592,
+      "name": "taskhostw.exe",
+      "exe": "C:\\Windows\\System32\\taskhostw.exe"
+    },
+    {
+      "pid": 7644,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 7804,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 7820,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 7932,
+      "name": "gamingservices.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_32.107.4002.0_x64__8wekyb3d8bbwe\\gamingservices.exe"
+    },
+    {
+      "pid": 8032,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 8068,
+      "name": "WmiPrvSE.exe",
+      "exe": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+    },
+    {
+      "pid": 8244,
+      "name": "TextInputHost.exe",
+      "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe"
+    },
+    {
+      "pid": 8272,
+      "name": "gamingservicesnet.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_32.107.4002.0_x64__8wekyb3d8bbwe\\gamingservicesnet.exe"
+    },
+    {
+      "pid": 8564,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 9100,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 9108,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 9392,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 9528,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 9536,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 9736,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 9792,
+      "name": "nvcontainer.exe",
+      "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+    },
+    {
+      "pid": 9888,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 9960,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 10016,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 10520,
+      "name": "dllhost.exe",
+      "exe": "C:\\Windows\\System32\\dllhost.exe"
+    },
+    {
+      "pid": 10564,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 10808,
+      "name": "powershell.exe",
+      "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    {
+      "pid": 10820,
+      "name": "MoUsoCoreWorker.exe",
+      "exe": "C:\\Windows\\UUS\\amd64\\MoUsoCoreWorker.exe"
+    },
+    {
+      "pid": 10888,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11076,
+      "name": "powershell.exe",
+      "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    {
+      "pid": 11140,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11260,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11288,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11376,
+      "name": "RuntimeBroker.exe",
+      "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+    },
+    {
+      "pid": 11540,
+      "name": "ArmouryCrate.UserSessionHelper.exe",
+      "exe": "C:\\Program Files\\ASUS\\Armoury Crate Service\\ArmouryCrate.UserSessionHelper.exe"
+    },
+    {
+      "pid": 11596,
+      "name": "pet.exe",
+      "exe": "C:\\Users\\Asus\\.vscode\\extensions\\ms-python.python-2025.18.0-win32-x64\\python-env-tools\\bin\\pet.exe"
+    },
+    {
+      "pid": 11712,
+      "name": "ShellHost.exe",
+      "exe": "C:\\Windows\\System32\\ShellHost.exe"
+    },
+    {
+      "pid": 11732,
+      "name": "wlanext.exe",
+      "exe": "C:\\Windows\\System32\\wlanext.exe"
+    },
+    {
+      "pid": 11784,
+      "name": "backgroundTaskHost.exe",
+      "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+    },
+    {
+      "pid": 11872,
+      "name": "WmiPrvSE.exe",
+      "exe": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+    },
+    {
+      "pid": 11908,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11964,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 11968,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12040,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12128,
+      "name": "code-tunnel.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe"
+    },
+    {
+      "pid": 12188,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12228,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12276,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12344,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12368,
+      "name": "winlogon.exe",
+      "exe": "C:\\Windows\\System32\\winlogon.exe"
+    },
+    {
+      "pid": 12572,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 12728,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 12804,
+      "name": "sihost.exe",
+      "exe": "C:\\Windows\\System32\\sihost.exe"
+    },
+    {
+      "pid": 12864,
+      "name": "BraveCrashHandler.exe",
+      "exe": "C:\\Program Files (x86)\\BraveSoftware\\Update\\1.3.361.151\\BraveCrashHandler.exe"
+    },
+    {
+      "pid": 12876,
+      "name": "BraveCrashHandler64.exe",
+      "exe": "C:\\Program Files (x86)\\BraveSoftware\\Update\\1.3.361.151\\BraveCrashHandler64.exe"
+    },
+    {
+      "pid": 12900,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 12944,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 13096,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 13104,
+      "name": "dwm.exe",
+      "exe": "C:\\Windows\\System32\\dwm.exe"
+    },
+    {
+      "pid": 13132,
+      "name": "asus_framework.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\asus_framework.exe"
+    },
+    {
+      "pid": 13172,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 13228,
+      "name": "SearchIndexer.exe",
+      "exe": "C:\\Windows\\System32\\SearchIndexer.exe"
+    },
+    {
+      "pid": 13272,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 13276,
+      "name": "OneDrive.exe",
+      "exe": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+    },
+    {
+      "pid": 13280,
+      "name": "python.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+    },
+    {
+      "pid": 13308,
+      "name": "explorer.exe",
+      "exe": "C:\\Windows\\explorer.exe"
+    },
+    {
+      "pid": 13384,
+      "name": "RadeonSoftware.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.22.20073.0_x64__0a9344xs7nr4m\\radeonsoftware\\RadeonSoftware.exe"
+    },
+    {
+      "pid": 13584,
+      "name": "cncmd.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.22.20073.0_x64__0a9344xs7nr4m\\radeonsoftware\\cncmd.exe"
+    },
+    {
+      "pid": 13608,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 13624,
+      "name": "powershell.exe",
+      "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    {
+      "pid": 14136,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 14148,
+      "name": "NisSrv.exe",
+      "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25100.9008-0\\NisSrv.exe"
+    },
+    {
+      "pid": 14156,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 14160,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 14252,
+      "name": "RuntimeBroker.exe",
+      "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+    },
+    {
+      "pid": 14288,
+      "name": "TrustedInstaller.exe",
+      "exe": "C:\\Windows\\servicing\\TrustedInstaller.exe"
+    },
+    {
+      "pid": 14340,
+      "name": "csrss.exe",
+      "exe": "C:\\Windows\\System32\\csrss.exe"
+    },
+    {
+      "pid": 14368,
+      "name": "backgroundTaskHost.exe",
+      "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+    },
+    {
+      "pid": 14512,
+      "name": "AsusMouseAgent.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\B9ECED6F.ASUSPCAssistant_4.0.49.0_x64__qmba6cd70vzyy\\ModuleDll\\Mouse\\AsusMouseAgent.exe"
+    },
+    {
+      "pid": 14788,
+      "name": "SearchProtocolHost.exe",
+      "exe": "C:\\Windows\\System32\\SearchProtocolHost.exe"
+    },
+    {
+      "pid": 14796,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 14864,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 15012,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 15156,
+      "name": "EpicGamesLauncher.exe",
+      "exe": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe"
+    },
+    {
+      "pid": 15192,
+      "name": "taskhostw.exe",
+      "exe": "C:\\Windows\\System32\\taskhostw.exe"
+    },
+    {
+      "pid": 15336,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 15512,
+      "name": "ArmouryCrate.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\B9ECED6F.ArmouryCrate_6.3.6.0_x64__qmba6cd70vzyy\\ArmouryCrate.exe"
+    },
+    {
+      "pid": 16160,
+      "name": "SearchHost.exe",
+      "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe"
+    },
+    {
+      "pid": 16212,
+      "name": "RtkAudUService64.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_179f26ff7cd32d0f\\RtkAudUService64.exe"
+    },
+    {
+      "pid": 16368,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 16444,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 16728,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 16892,
+      "name": "WmiPrvSE.exe",
+      "exe": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+    },
+    {
+      "pid": 16924,
+      "name": "SecurityHealthService.exe",
+      "exe": "C:\\Windows\\System32\\SecurityHealthService.exe"
+    },
+    {
+      "pid": 16960,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 17108,
+      "name": "FileSyncHelper.exe",
+      "exe": "C:\\Program Files\\Microsoft OneDrive\\25.209.1026.0002\\FileSyncHelper.exe"
+    },
+    {
+      "pid": 17256,
+      "name": "Spotify.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.275.510.0_x64__zpdnekdrzrea0\\Spotify.exe"
+    },
+    {
+      "pid": 17316,
+      "name": "fontdrvhost.exe",
+      "exe": "C:\\Windows\\System32\\fontdrvhost.exe"
+    },
+    {
+      "pid": 17544,
+      "name": "VBoxSDS.exe",
+      "exe": "C:\\Program Files\\Oracle\\VirtualBox\\VBoxSDS.exe"
+    },
+    {
+      "pid": 17876,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 17888,
+      "name": "Widgets.exe",
+      "exe": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_525.28301.40.0_x64__cw5n1h2txyewy\\Dashboard\\Widgets.exe"
+    },
+    {
+      "pid": 18124,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 18280,
+      "name": "powershell.exe",
+      "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    {
+      "pid": 18308,
+      "name": "ctfmon.exe",
+      "exe": "C:\\Windows\\System32\\ctfmon.exe"
+    },
+    {
+      "pid": 18456,
+      "name": "ArmourySwAgent.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\dll\\SwAgent\\ArmourySwAgent.exe"
+    },
+    {
+      "pid": 18684,
+      "name": "asus_framework.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\asus_framework.exe"
+    },
+    {
+      "pid": 18796,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    },
+    {
+      "pid": 18816,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 19132,
+      "name": "MicrosoftEdgeUpdate.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"
+    },
+    {
+      "pid": 19500,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 19600,
+      "name": "AcPowerNotification.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\dll\\AcPowerNotification\\AcPowerNotification.exe"
+    },
+    {
+      "pid": 19624,
+      "name": "RuntimeBroker.exe",
+      "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+    },
+    {
+      "pid": 19632,
+      "name": "RtkAudUService64.exe",
+      "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_179f26ff7cd32d0f\\RtkAudUService64.exe"
+    },
+    {
+      "pid": 19668,
+      "name": "EpicWebHelper.exe",
+      "exe": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Engine\\Binaries\\Win64\\EpicWebHelper.exe"
+    },
+    {
+      "pid": 19848,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 19912,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 20124,
+      "name": "Code.exe",
+      "exe": "C:\\Users\\Asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    {
+      "pid": 20224,
+      "name": "unsecapp.exe",
+      "exe": "C:\\Windows\\System32\\wbem\\unsecapp.exe"
+    },
+    {
+      "pid": 20252,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 20380,
+      "name": "StartMenuExperienceHost.exe",
+      "exe": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"
+    },
+    {
+      "pid": 20384,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 20396,
+      "name": "dllhost.exe",
+      "exe": "C:\\Windows\\System32\\dllhost.exe"
+    },
+    {
+      "pid": 20496,
+      "name": "audiodg.exe",
+      "exe": "C:\\Windows\\System32\\audiodg.exe"
+    },
+    {
+      "pid": 20812,
+      "name": "conhost.exe",
+      "exe": "C:\\Windows\\System32\\conhost.exe"
+    },
+    {
+      "pid": 20860,
+      "name": "TiWorker.exe",
+      "exe": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.6893_none_a4fec8997769ca80\\TiWorker.exe"
+    },
+    {
+      "pid": 20936,
+      "name": "asus_framework.exe",
+      "exe": "C:\\Program Files (x86)\\ASUS\\ArmouryDevice\\asus_framework.exe"
+    },
+    {
+      "pid": 20968,
+      "name": "svchost.exe",
+      "exe": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "pid": 21060,
+      "name": "msedgewebview2.exe",
+      "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\msedgewebview2.exe"
+    }
+  ],
+  "hotfixes": [
+    {
+      "HotFixID": "KB5066131",
+      "InstalledOn": {
+        "value": "/Date(1763404200000)/",
+        "DateTime": "18 November 2025 12.00.00 AM"
+      }
+    },
+    {
+      "HotFixID": "KB5066835",
+      "InstalledOn": {
+        "value": "/Date(1760466600000)/",
+        "DateTime": "15 October 2025 12.00.00 AM"
+      }
+    },
+    {
+      "HotFixID": "KB5067360",
+      "InstalledOn": {
+        "value": "/Date(1760466600000)/",
+        "DateTime": "15 October 2025 12.00.00 AM"
+      }
+    }
+  ],
+  "services": [
+    {
+      "Name": "AarSvc_a2ee6d",
+      "DisplayName": "Agent Activation Runtime_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "AdobeARMservice",
+      "DisplayName": "Adobe Acrobat Update Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ADPSvc",
+      "DisplayName": "ADPSvc",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ALG",
+      "DisplayName": "Application Layer Gateway Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "AMD Crash Defender Service",
+      "DisplayName": "AMD Crash Defender Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AMD External Events Utility",
+      "DisplayName": "AMD External Events Utility",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AnyDesk",
+      "DisplayName": "AnyDesk Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AppIDSvc",
+      "DisplayName": "Application Identity",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Appinfo",
+      "DisplayName": "Application Information",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "AppMgmt",
+      "DisplayName": "Application Management",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "AppReadiness",
+      "DisplayName": "App Readiness",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "AppVClient",
+      "DisplayName": "Microsoft App-V Client",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "AppXSvc",
+      "DisplayName": "AppX Deployment Service (AppXSVC)",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "ApxSvc",
+      "DisplayName": "Windows Virtual Audio Device Proxy Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ArmouryCrateControlInterface",
+      "DisplayName": "Armoury Crate Control Interface",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ArmouryCrateService",
+      "DisplayName": "Armoury Crate Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AssignedAccessManagerSvc",
+      "DisplayName": "AssignedAccessManager Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "asus",
+      "DisplayName": "ASUS Update Service (asus)",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "AsusAppService",
+      "DisplayName": "ASUS App Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AsusCertService",
+      "DisplayName": "Asus Certificate Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "asusm",
+      "DisplayName": "ASUS Update Service (asusm)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ASUSOptimization",
+      "DisplayName": "ASUS Optimization",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AsusPTPService",
+      "DisplayName": "AsusPTPService",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ASUSSoftwareManager",
+      "DisplayName": "ASUS Software Manager",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ASUSSwitch",
+      "DisplayName": "ASUS Switch",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ASUSSystemAnalysis",
+      "DisplayName": "ASUS System Analysis",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ASUSSystemDiagnosis",
+      "DisplayName": "ASUS System Diagnosis",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "AudioEndpointBuilder",
+      "DisplayName": "Windows Audio Endpoint Builder",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "Audiosrv",
+      "DisplayName": "Windows Audio",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "autotimesvc",
+      "DisplayName": "Cellular Time",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "AxInstSV",
+      "DisplayName": "ActiveX Installer (AxInstSV)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "BcastDVRUserService_a2ee6d",
+      "DisplayName": "GameDVR and Broadcast User Service_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "BDESVC",
+      "DisplayName": "BitLocker Drive Encryption Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "BFE",
+      "DisplayName": "Base Filtering Engine",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "BITS",
+      "DisplayName": "Background Intelligent Transfer Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "BluetoothUserService_a2ee6d",
+      "DisplayName": "Bluetooth User Support Service_a2ee6d",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "brave",
+      "DisplayName": "Brave Update Service (brave)",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "BraveElevationService",
+      "DisplayName": "Brave Elevation Service (BraveElevationService)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "bravem",
+      "DisplayName": "Brave Update Service (bravem)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "BrokerInfrastructure",
+      "DisplayName": "Background Tasks Infrastructure Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "BTAGService",
+      "DisplayName": "Bluetooth Audio Gateway Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "BthAvctpSvc",
+      "DisplayName": "AVCTP service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "bthserv",
+      "DisplayName": "Bluetooth Support Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "camsvc",
+      "DisplayName": "Capability Access Manager Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CaptureService_a2ee6d",
+      "DisplayName": "CaptureService_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "cbdhsvc_a2ee6d",
+      "DisplayName": "Clipboard User Service_a2ee6d",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CDPSvc",
+      "DisplayName": "Connected Devices Platform Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CDPUserSvc_a2ee6d",
+      "DisplayName": "Connected Devices Platform User Service_a2ee6d",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CertPropSvc",
+      "DisplayName": "Certificate Propagation",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ClickToRunSvc",
+      "DisplayName": "Microsoft Office Click-to-Run Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "ClipSVC",
+      "DisplayName": "Client License Service (ClipSVC)",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "CloudBackupRestoreSvc_a2ee6d",
+      "DisplayName": "Cloud Backup and Restore Service_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "CloudflareWARP",
+      "DisplayName": "Cloudflare WARP",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "cloudidsvc",
+      "DisplayName": "Microsoft Cloud Identity Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "COMSysApp",
+      "DisplayName": "COM+ System Application",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ConsentUxUserSvc_a2ee6d",
+      "DisplayName": "ConsentUX User Service_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "CoreMessagingRegistrar",
+      "DisplayName": "CoreMessaging",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CredentialEnrollmentManagerUserSvc_a2ee6d",
+      "DisplayName": "CredentialEnrollmentManagerUserSvc_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "CryptSvc",
+      "DisplayName": "Cryptographic Services",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "CscService",
+      "DisplayName": "Offline Files",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DcomLaunch",
+      "DisplayName": "DCOM Server Process Launcher",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "dcsvc",
+      "DisplayName": "Declared Configuration(DC) service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "defragsvc",
+      "DisplayName": "Optimize drives",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DeviceAssociationBrokerSvc_a2ee6d",
+      "DisplayName": "DeviceAssociationBroker_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DeviceAssociationService",
+      "DisplayName": "Device Association Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "DeviceInstall",
+      "DisplayName": "Device Install Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "DevicePickerUserSvc_a2ee6d",
+      "DisplayName": "DevicePicker_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DevicesFlowUserSvc_a2ee6d",
+      "DisplayName": "DevicesFlow_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DevQueryBroker",
+      "DisplayName": "DevQuery Background Discovery Broker",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Dhcp",
+      "DisplayName": "DHCP Client",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "diagsvc",
+      "DisplayName": "Diagnostic Execution Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DiagTrack",
+      "DisplayName": "Connected User Experiences and Telemetry",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "DialogBlockingService",
+      "DisplayName": "DialogBlockingService",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "DispBrokerDesktopSvc",
+      "DisplayName": "Display Policy Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "DisplayEnhancementService",
+      "DisplayName": "Display Enhancement Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "DmEnrollmentSvc",
+      "DisplayName": "Device Management Enrollment Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "dmwappushservice",
+      "DisplayName": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Dnscache",
+      "DisplayName": "DNS Client",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "DoSvc",
+      "DisplayName": "Delivery Optimization",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "dot3svc",
+      "DisplayName": "Wired AutoConfig",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DPS",
+      "DisplayName": "Diagnostic Policy Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "DsmSvc",
+      "DisplayName": "Device Setup Manager",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "DsSvc",
+      "DisplayName": "Data Sharing Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "DtsApo4Service",
+      "DisplayName": "DtsApo4Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "DusmSvc",
+      "DisplayName": "Data Usage",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "EapHost",
+      "DisplayName": "Extensible Authentication Protocol",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "edgeupdate",
+      "DisplayName": "Microsoft Edge Update Service (edgeupdate)",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "edgeupdatem",
+      "DisplayName": "Microsoft Edge Update Service (edgeupdatem)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "EFS",
+      "DisplayName": "Encrypting File System (EFS)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "embeddedmode",
+      "DisplayName": "Embedded Mode",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "EntAppSvc",
+      "DisplayName": "Enterprise App Management Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "EpicGamesUpdater",
+      "DisplayName": "Epic Games Updater",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "EpicOnlineServices",
+      "DisplayName": "Epic Online Services",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "EventLog",
+      "DisplayName": "Windows Event Log",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "EventSystem",
+      "DisplayName": "COM+ Event System",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "fdPHost",
+      "DisplayName": "Function Discovery Provider Host",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "FDResPub",
+      "DisplayName": "Function Discovery Resource Publication",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "fhsvc",
+      "DisplayName": "File History Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "FileSyncHelper",
+      "DisplayName": "FileSyncHelper",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "FontCache",
+      "DisplayName": "Windows Font Cache Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "FrameServer",
+      "DisplayName": "Windows Camera Frame Server",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "FrameServerMonitor",
+      "DisplayName": "Windows Camera Frame Server Monitor",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "FvSvc",
+      "DisplayName": "NVIDIA FrameView SDK service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "GameInputRedistService",
+      "DisplayName": "GameInput Redist Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "GameInputSvc",
+      "DisplayName": "GameInput Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "GameSDK Service",
+      "DisplayName": "GameSDK Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "GamingServices",
+      "DisplayName": "Gaming Services",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "GamingServicesNet",
+      "DisplayName": "Gaming Services",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "GoogleChromeElevationService",
+      "DisplayName": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "GoogleUpdaterInternalService143.0.7482.0",
+      "DisplayName": "Google Updater Internal Service (GoogleUpdaterInternalService143.0.7482.0)",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "GoogleUpdaterService143.0.7482.0",
+      "DisplayName": "Google Updater Service (GoogleUpdaterService143.0.7482.0)",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "gpsvc",
+      "DisplayName": "Group Policy Client",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "GraphicsPerfSvc",
+      "DisplayName": "GraphicsPerfSvc",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "hidserv",
+      "DisplayName": "Human Interface Device Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "hpatchmon",
+      "DisplayName": "Hotpatch Monitoring Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "HvHost",
+      "DisplayName": "HV Host Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "icssvc",
+      "DisplayName": "Windows Mobile Hotspot Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "IKEEXT",
+      "DisplayName": "IKE and AuthIP IPsec Keying Modules",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "InstallService",
+      "DisplayName": "Microsoft Store Install Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "InventorySvc",
+      "DisplayName": "Inventory and Compatibility Appraisal service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "IObitUnSvr",
+      "DisplayName": "IObit Uninstaller Service",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "iphlpsvc",
+      "DisplayName": "IP Helper",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "IpxlatCfgSvc",
+      "DisplayName": "IP Translation Configuration Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "KeyIso",
+      "DisplayName": "CNG Key Isolation",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "KtmRm",
+      "DisplayName": "KtmRm for Distributed Transaction Coordinator",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "LanmanServer",
+      "DisplayName": "Server",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "LanmanWorkstation",
+      "DisplayName": "Workstation",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "lfsvc",
+      "DisplayName": "Geolocation Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "LicenseManager",
+      "DisplayName": "Windows License Manager Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "LightingService",
+      "DisplayName": "ASUS AURA SYNC lighting service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "lltdsvc",
+      "DisplayName": "Link-Layer Topology Discovery Mapper",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "lmhosts",
+      "DisplayName": "TCP/IP NetBIOS Helper",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "LocalKdc",
+      "DisplayName": "Kerberos Local Key Distribution Center",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "LSM",
+      "DisplayName": "Local Session Manager",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "LxpSvc",
+      "DisplayName": "Language Experience Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "MapsBroker",
+      "DisplayName": "Downloaded Maps Manager",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "McmSvc",
+      "DisplayName": "Mobile Connectivity Management Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "McpManagementService",
+      "DisplayName": "McpManagementService",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "MDCoreSvc",
+      "DisplayName": "Microsoft Defender Core Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "MessagingService_a2ee6d",
+      "DisplayName": "MessagingService_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "MicrosoftEdgeElevationService",
+      "DisplayName": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "midisrv",
+      "DisplayName": "Windows MIDI Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "mpssvc",
+      "DisplayName": "Windows Defender Firewall",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "MSDTC",
+      "DisplayName": "Distributed Transaction Coordinator",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "MSiSCSI",
+      "DisplayName": "Microsoft iSCSI Initiator Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "msiserver",
+      "DisplayName": "Windows Installer",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "MsKeyboardFilter",
+      "DisplayName": "Microsoft Keyboard Filter",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "NaturalAuthentication",
+      "DisplayName": "Natural Authentication",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NcaSvc",
+      "DisplayName": "Network Connectivity Assistant",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "NcbService",
+      "DisplayName": "Network Connection Broker",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NcdAutoSetup",
+      "DisplayName": "Network Connected Devices Auto-Setup",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Netlogon",
+      "DisplayName": "Netlogon",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Netman",
+      "DisplayName": "Network Connections",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "netprofm",
+      "DisplayName": "Network List Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NetSetupSvc",
+      "DisplayName": "Network Setup Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NetTcpPortSharing",
+      "DisplayName": "Net.Tcp Port Sharing Service",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "NgcCtnrSvc",
+      "DisplayName": "Microsoft Passport Container",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NgcSvc",
+      "DisplayName": "Microsoft Passport",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "NlaSvc",
+      "DisplayName": "Network Location Awareness",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "NPSMSvc_a2ee6d",
+      "DisplayName": "Now Playing Session Manager Service_a2ee6d",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "nsi",
+      "DisplayName": "Network Store Interface Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "NvContainerLocalSystem",
+      "DisplayName": "NVIDIA LocalSystem Container",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "NVDisplay.ContainerLocalSystem",
+      "DisplayName": "NVIDIA Display Container LS",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "OneDrive Updater Service",
+      "DisplayName": "OneDrive Updater Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "OneSyncSvc_a2ee6d",
+      "DisplayName": "Sync Host_a2ee6d",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "P9RdrService_a2ee6d",
+      "DisplayName": "P9RdrService_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Parsec",
+      "DisplayName": "Parsec",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "PcaSvc",
+      "DisplayName": "Program Compatibility Assistant Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "PeerDistSvc",
+      "DisplayName": "BranchCache",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PenService_a2ee6d",
+      "DisplayName": "PenService_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "perceptionsimulation",
+      "DisplayName": "Windows Perception Simulation Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PerfHost",
+      "DisplayName": "Performance Counter DLL Host",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PhoneSvc",
+      "DisplayName": "Phone Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "PimIndexMaintenanceSvc_a2ee6d",
+      "DisplayName": "Contact Data_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "pla",
+      "DisplayName": "Performance Logs & Alerts",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PlugPlay",
+      "DisplayName": "Plug and Play",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "PolicyAgent",
+      "DisplayName": "IPsec Policy Agent",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Power",
+      "DisplayName": "Power",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "PrintDeviceConfigurationService",
+      "DisplayName": "Print Device Configuration Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PrintNotify",
+      "DisplayName": "Printer Extensions and Notifications",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PrintScanBrokerService",
+      "DisplayName": "PrintScanBrokerService",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "PrintWorkflowUserSvc_a2ee6d",
+      "DisplayName": "PrintWorkflow_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ProfSvc",
+      "DisplayName": "User Profile Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "PushToInstall",
+      "DisplayName": "Windows PushToInstall Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "QWAVE",
+      "DisplayName": "Quality Windows Audio Video Experience",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "RasAuto",
+      "DisplayName": "Remote Access Auto Connection Manager",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "RasMan",
+      "DisplayName": "Remote Access Connection Manager",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "refsdedupsvc",
+      "DisplayName": "ReFS Dedup Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "RemoteAccess",
+      "DisplayName": "Routing and Remote Access",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "RemoteRegistry",
+      "DisplayName": "Remote Registry",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "RetailDemo",
+      "DisplayName": "Retail Demo Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "RmSvc",
+      "DisplayName": "Radio Management Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "ROG Live Service",
+      "DisplayName": "ROG Live Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "RpcEptMapper",
+      "DisplayName": "RPC Endpoint Mapper",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "RpcLocator",
+      "DisplayName": "Remote Procedure Call (RPC) Locator",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "RpcSs",
+      "DisplayName": "Remote Procedure Call (RPC)",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "RtkAudioUniversalService",
+      "DisplayName": "Realtek Audio Universal Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "SamSs",
+      "DisplayName": "Security Accounts Manager",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "SCardSvr",
+      "DisplayName": "Smart Card",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ScDeviceEnum",
+      "DisplayName": "Smart Card Device Enumeration Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Schedule",
+      "DisplayName": "Task Scheduler",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "SCPolicySvc",
+      "DisplayName": "Smart Card Removal Policy",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SDRSVC",
+      "DisplayName": "Windows Backup",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "seclogon",
+      "DisplayName": "Secondary Logon",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "SecurityHealthService",
+      "DisplayName": "Windows Security Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "SEMgrSvc",
+      "DisplayName": "Payments and NFC/SE Manager",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SENS",
+      "DisplayName": "System Event Notification Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "Sense",
+      "DisplayName": "Windows Defender Advanced Threat Protection Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SensorDataService",
+      "DisplayName": "Sensor Data Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SensorService",
+      "DisplayName": "Sensor Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SensrSvc",
+      "DisplayName": "Sensor Monitoring Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SessionEnv",
+      "DisplayName": "Remote Desktop Configuration",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SharedAccess",
+      "DisplayName": "Internet Connection Sharing (ICS)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "ShellHWDetection",
+      "DisplayName": "Shell Hardware Detection",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "shpamsvc",
+      "DisplayName": "Shared PC Account Manager",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "smphost",
+      "DisplayName": "Microsoft Storage Spaces SMP",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "SmsRouter",
+      "DisplayName": "Microsoft Windows SMS Router Service.",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SNMPTrap",
+      "DisplayName": "SNMP Trap",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Spooler",
+      "DisplayName": "Print Spooler",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "sppsvc",
+      "DisplayName": "Software Protection",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "SSDPSRV",
+      "DisplayName": "SSDP Discovery",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "ssh-agent",
+      "DisplayName": "OpenSSH Authentication Agent",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "SstpSvc",
+      "DisplayName": "Secure Socket Tunneling Protocol Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "StateRepository",
+      "DisplayName": "State Repository Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "Steam Client Service",
+      "DisplayName": "Steam Client Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "StiSvc",
+      "DisplayName": "Windows Image Acquisition (WIA)",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "StorSvc",
+      "DisplayName": "Storage Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "svsvc",
+      "DisplayName": "Spot Verifier",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "swprv",
+      "DisplayName": "Microsoft Software Shadow Copy Provider",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "SysMain",
+      "DisplayName": "SysMain",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "SystemEventsBroker",
+      "DisplayName": "System Events Broker",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "TapiSrv",
+      "DisplayName": "Telephony",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "TermService",
+      "DisplayName": "Remote Desktop Services",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "TextInputManagementService",
+      "DisplayName": "Text Input Management Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "Themes",
+      "DisplayName": "Themes",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "TieringEngineService",
+      "DisplayName": "Storage Tiers Management",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "TimeBrokerSvc",
+      "DisplayName": "Time Broker",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "TokenBroker",
+      "DisplayName": "Web Account Manager",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "TrkWks",
+      "DisplayName": "Distributed Link Tracking Client",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "TroubleshootingSvc",
+      "DisplayName": "Recommended Troubleshooting Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "TrustedInstaller",
+      "DisplayName": "Windows Modules Installer",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "tzautoupdate",
+      "DisplayName": "Auto Time Zone Updater",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "UdkUserSvc_a2ee6d",
+      "DisplayName": "Udk User Service_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "UevAgentService",
+      "DisplayName": "User Experience Virtualization Service",
+      "Status": 1,
+      "StartType": 4
+    },
+    {
+      "Name": "UltraViewService",
+      "DisplayName": "UltraViewer Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "UmRdpService",
+      "DisplayName": "Remote Desktop Services UserMode Port Redirector",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "UnistoreSvc_a2ee6d",
+      "DisplayName": "User Data Storage_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "upnphost",
+      "DisplayName": "UPnP Device Host",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "UserDataSvc_a2ee6d",
+      "DisplayName": "User Data Access_a2ee6d",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "UserManager",
+      "DisplayName": "User Manager",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "UsoSvc",
+      "DisplayName": "Update Orchestrator Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "VaultSvc",
+      "DisplayName": "Credential Manager",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "VBoxSDS",
+      "DisplayName": "VirtualBox system service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "vds",
+      "DisplayName": "Virtual Disk",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicguestinterface",
+      "DisplayName": "Hyper-V Guest Service Interface",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicheartbeat",
+      "DisplayName": "Hyper-V Heartbeat Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmickvpexchange",
+      "DisplayName": "Hyper-V Data Exchange Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicrdv",
+      "DisplayName": "Hyper-V Remote Desktop Virtualization Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicshutdown",
+      "DisplayName": "Hyper-V Guest Shutdown Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmictimesync",
+      "DisplayName": "Hyper-V Time Synchronization Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicvmsession",
+      "DisplayName": "Hyper-V PowerShell Direct Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "vmicvss",
+      "DisplayName": "Hyper-V Volume Shadow Copy Requestor",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "VSS",
+      "DisplayName": "Volume Shadow Copy",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "W32Time",
+      "DisplayName": "Windows Time",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WaaSMedicSvc",
+      "DisplayName": "WaaSMedicSvc",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "WalletService",
+      "DisplayName": "WalletService",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WarpJITSvc",
+      "DisplayName": "Warp JIT Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "wbengine",
+      "DisplayName": "Block Level Backup Engine Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WbioSrvc",
+      "DisplayName": "Windows Biometric Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "Wcmsvc",
+      "DisplayName": "Windows Connection Manager",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "wcncsvc",
+      "DisplayName": "Windows Connect Now - Config Registrar",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WdiServiceHost",
+      "DisplayName": "Diagnostic Service Host",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WdiSystemHost",
+      "DisplayName": "Diagnostic System Host",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "WdNisSvc",
+      "DisplayName": "Microsoft Defender Antivirus Network Inspection Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "WebClient",
+      "DisplayName": "WebClient",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "webthreatdefsvc",
+      "DisplayName": "Web Threat Defense Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "webthreatdefusersvc_a2ee6d",
+      "DisplayName": "Web Threat Defense User Service_a2ee6d",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "Wecsvc",
+      "DisplayName": "Windows Event Collector",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WEPHOSTSVC",
+      "DisplayName": "Windows Encryption Provider Host Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "wercplsupport",
+      "DisplayName": "Problem Reports Control Panel Support",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WerSvc",
+      "DisplayName": "Windows Error Reporting Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "WFDSConMgrSvc",
+      "DisplayName": "Wi-Fi Direct Services Connection Manager Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "whesvc",
+      "DisplayName": "Windows Health and Optimized Experiences",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "WiaRpc",
+      "DisplayName": "Still Image Acquisition Events",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WinDefend",
+      "DisplayName": "Microsoft Defender Antivirus Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "WinHttpAutoProxySvc",
+      "DisplayName": "WinHTTP Web Proxy Auto-Discovery Service",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "Winmgmt",
+      "DisplayName": "Windows Management Instrumentation",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "WinRM",
+      "DisplayName": "Windows Remote Management (WS-Management)",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "wisvc",
+      "DisplayName": "Windows Insider Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WlanSvc",
+      "DisplayName": "WLAN AutoConfig",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "wlidsvc",
+      "DisplayName": "Microsoft Account Sign-in Assistant",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "wlpasvc",
+      "DisplayName": "Local Profile Assistant Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WManSvc",
+      "DisplayName": "Windows Management Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "wmiApSrv",
+      "DisplayName": "WMI Performance Adapter",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WMPNetworkSvc",
+      "DisplayName": "Windows Media Player Network Sharing Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "workfolderssvc",
+      "DisplayName": "Work Folders",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WpcMonSvc",
+      "DisplayName": "Parental Controls",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WPDBusEnum",
+      "DisplayName": "Portable Device Enumerator Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WpnService",
+      "DisplayName": "Windows Push Notifications System Service",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "WpnUserService_a2ee6d",
+      "DisplayName": "Windows Push Notifications User Service_a2ee6d",
+      "Status": 1,
+      "StartType": 2
+    },
+    {
+      "Name": "WSAIFabricSvc",
+      "DisplayName": "WSAIFabricSvc",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "wscsvc",
+      "DisplayName": "Security Center",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "WSearch",
+      "DisplayName": "Windows Search",
+      "Status": 4,
+      "StartType": 2
+    },
+    {
+      "Name": "wuauserv",
+      "DisplayName": "Windows Update",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "wuqisvc",
+      "DisplayName": "Microsoft Usage and Quality Insights",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "WwanSvc",
+      "DisplayName": "WWAN AutoConfig",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "XblAuthManager",
+      "DisplayName": "Xbox Live Auth Manager",
+      "Status": 4,
+      "StartType": 3
+    },
+    {
+      "Name": "XblGameSave",
+      "DisplayName": "Xbox Live Game Save",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "XboxGipSvc",
+      "DisplayName": "Xbox Accessory Management Service",
+      "Status": 1,
+      "StartType": 3
+    },
+    {
+      "Name": "XboxNetApiSvc",
+      "DisplayName": "Xbox Live Networking Service",
+      "Status": 1,
+      "StartType": 3
+    }
+  ]
+}

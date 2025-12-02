@@ -1,0 +1,493 @@
+{
+  "summary": "Found 23 findings. AI model: Google Gemini (gemini-2.5-flash)",
+  "prioritized_findings": [
+    {
+      "uid": "54a31d15441a86c8834efb72ab7edcb955ffeb85c497286c88cd715d99fe66ab",
+      "title": "Open port 49669",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "dd4c3e57f1834a93c8144acef3a9572d0bf745c8f7e402a3f1668821701657d5",
+      "title": "Open port 8828",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "50c726b1538e5a0e3c58be90948c4214af257fda6e3d3c9c6f951d317bf699da",
+      "title": "Open port 7680",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "01a232b0670e43855c2639b82b6554dafd0158083537c0a314f473b3bbe99fad",
+      "title": "Open port 30196",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "54f995a852cf797a0dbf49933e9d59e5526cc37c9b501ea06078084aa8121ae1",
+      "title": "Open port 139",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "b1e849f43804352edff0828fff45692b362c823cc5827a93cb0a49ccc6319eb1",
+      "title": "Open port 49686",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "13d8540b5accb4e538eda135e98022daf45efc873b15c59435630c33bd8323af",
+      "title": "Open port 445",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "e9f5723cbf45ae6d8ee961ad1f4dd0a57253a01b9cc3f45a42fdbf51a73dd872",
+      "title": "Open port 49671",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "63658172e2a03724121da4c71a9fce56726df981c56d0fa240c043c2b6f9be03",
+      "title": "Open port 49670",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "8b2b3395bcdd950715cb4d22149d64c141b9d974cf00e3078ad63a50239ff52e",
+      "title": "Open port 49665",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "c1b0f67f4f117e4fa37b73bf5c2f54e363afdbdebe158f6de8610be6a6a6f617",
+      "title": "Open port 3306",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "9d53af163d4932e7738ae73a8b0f229d62a748a9b93e1f45a7d265224b0e45c0",
+      "title": "Open port 42050",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "fc11123b0a39fb28429e901dd05b5ff2cb9115cde6203a79a2e110235862030c",
+      "title": "Open port 3389",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "dbb46ee65afbdd6ff0f1d96e52a9aa77c728bcdeef5879edcec37bd65676b3f8",
+      "title": "Open port 4247",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "cbfaf3561dc454eeece45f955ab1a3c0e557dca4b3217423290e76abcceb71e7",
+      "title": "Open port 135",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "0ad6ee19588cf348359fcd5ef2d09bcf2c46235b0b7acde84d3d3ed5423dfd33",
+      "title": "Open port 49672",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "cdddd8487751f73acf953a5fdc004f7d045ec3a0b13c73381e972178fdfe8f41",
+      "title": "Open port 49666",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "5d7a2a8227cd5b7f05d37b29f2a9dba2fe089d489c28a2cd180e791d11f33361",
+      "title": "Open port 5040",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "1d7e7cb576cd5b0938753e21b94d86dc6aae13843740e4512dfa673f6cc3544f",
+      "title": "Open port 49673",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "8837dd242a71705d04ce3b912e72491343a7047f8d52726e1fcf957a4a7acbdd",
+      "title": "Open port 8000",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "3aaa1898f393db245c0965d0fabfb8a0f163e002c43249e8018f8c6f45e50acf",
+      "title": "Open port 49664",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "561ef381a1450cba7fab22995025946aa08aafb2787a0e16892778f94cd59642",
+      "title": "Open port 33060",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    },
+    {
+      "uid": "850a2ec68f1b76e35686806630a72b3d113e8a3c9d6a7b239e79500281803024",
+      "title": "Missing patch KB999999",
+      "severity": "MEDIUM",
+      "mitigation_techniques": [
+        "Review and patch system",
+        "Apply security best practices",
+        "Monitor logs"
+      ],
+      "possible_attacks": [
+        "Exploitation",
+        "Unauthorized access"
+      ],
+      "recommended_steps": [
+        "Investigate the vulnerability",
+        "Apply vendor patches",
+        "Review security policies"
+      ],
+      "verification_commands": [],
+      "references": []
+    }
+  ],
+  "fix_now_checklist": [
+    "Open port 49669",
+    "Open port 8828",
+    "Open port 7680"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "scan_id": "9bca6b24c524ab2fad2bc4f5f48a2b4581fbfac175c35a6a83b17b1707e508f8",
+  "generated_at": "2025-11-28T05:36:38.753899Z",
+  "host": {
+    "hostname": "Mickey",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "total_findings": 21,
+  "summary": {
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 21,
+    "low_count": 0
+  },
+  "analyzed_findings": [
+    {
+      "uid": "cdddd8487751f73acf953a5fdc004f7d045ec3a0b13c73381e972178fdfe8f41",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49666",
+        "description": "Listening on 0.0.0.0:49666 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 49666,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 25.296033623s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 25\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "e9f5723cbf45ae6d8ee961ad1f4dd0a57253a01b9cc3f45a42fdbf51a73dd872",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49671",
+        "description": "Listening on 0.0.0.0:49671 (Process: spoolsv.exe)",
+        "service": "Unknown",
+        "process": "spoolsv.exe",
+        "port": 49671,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 24.939116514s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "c1b0f67f4f117e4fa37b73bf5c2f54e363afdbdebe158f6de8610be6a6a6f617",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 3306",
+        "description": "Listening on :::3306 - MySQL service (Process: mysqld.exe)",
+        "service": "MySQL",
+        "process": "mysqld.exe",
+        "port": 3306,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 24.574206624s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "13d8540b5accb4e538eda135e98022daf45efc873b15c59435630c33bd8323af",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 445",
+        "description": "Listening on :::445 - SMB service (Process: System)",
+        "service": "SMB",
+        "process": "System",
+        "port": 445,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 24.209200054s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "cbfaf3561dc454eeece45f955ab1a3c0e557dca4b3217423290e76abcceb71e7",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 135",
+        "description": "Listening on :::135 - RPC service (Process: svchost.exe)",
+        "service": "RPC",
+        "process": "svchost.exe",
+        "port": 135,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.853680872s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "8b2b3395bcdd950715cb4d22149d64c141b9d974cf00e3078ad63a50239ff52e",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49665",
+        "description": "Listening on 0.0.0.0:49665 (Process: wininit.exe)",
+        "service": "Unknown",
+        "process": "wininit.exe",
+        "port": 49665,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.507606137s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "dd4c3e57f1834a93c8144acef3a9572d0bf745c8f7e402a3f1668821701657d5",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 8828",
+        "description": "Listening on 127.0.0.1:8828 (Process: Code.exe)",
+        "service": "Unknown",
+        "process": "Code.exe",
+        "port": 8828,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.165949399s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "b1e849f43804352edff0828fff45692b362c823cc5827a93cb0a49ccc6319eb1",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49686",
+        "description": "Listening on 0.0.0.0:49686 (Process: services.exe)",
+        "service": "Unknown",
+        "process": "services.exe",
+        "port": 49686,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 22.82563796s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "63658172e2a03724121da4c71a9fce56726df981c56d0fa240c043c2b6f9be03",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49670",
+        "description": "Listening on :::49670 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 49670,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 22.48149584s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "8837dd242a71705d04ce3b912e72491343a7047f8d52726e1fcf957a4a7acbdd",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 8000",
+        "description": "Listening on 127.0.0.1:8000 - HTTP-Alt service (Process: python.exe)",
+        "service": "HTTP-Alt",
+        "process": "python.exe",
+        "port": 8000,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 22.134515722s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "2fa20168b3ce547dcb730d242b8fe628bf1f898753296bf371d97c313f5ea545",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 3686",
+        "description": "Listening on 127.0.0.1:3686 (Process: Code.exe)",
+        "service": "Unknown",
+        "process": "Code.exe",
+        "port": 3686,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 21.778202977s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "3aaa1898f393db245c0965d0fabfb8a0f163e002c43249e8018f8c6f45e50acf",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49664",
+        "description": "Listening on :::49664 (Process: lsass.exe)",
+        "service": "Unknown",
+        "process": "lsass.exe",
+        "port": 49664,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 21.419657494s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "54f995a852cf797a0dbf49933e9d59e5526cc37c9b501ea06078084aa8121ae1",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 139",
+        "description": "Listening on 192.168.56.1:139 - NetBIOS service (Process: System)",
+        "service": "NetBIOS",
+        "process": "System",
+        "port": 139,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 21.076404148s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "fc11123b0a39fb28429e901dd05b5ff2cb9115cde6203a79a2e110235862030c",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 3389",
+        "description": "Listening on :::3389 - RDP service (Process: svchost.exe)",
+        "service": "RDP",
+        "process": "svchost.exe",
+        "port": 3389,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.732096696s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "50c726b1538e5a0e3c58be90948c4214af257fda6e3d3c9c6f951d317bf699da",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 7680",
+        "description": "Listening on 0.0.0.0:7680 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 7680,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.37122718s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "561ef381a1450cba7fab22995025946aa08aafb2787a0e16892778f94cd59642",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 33060",
+        "description": "Listening on :::33060 (Process: mysqld.exe)",
+        "service": "Unknown",
+        "process": "mysqld.exe",
+        "port": 33060,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.010744404s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "0ad6ee19588cf348359fcd5ef2d09bcf2c46235b0b7acde84d3d3ed5423dfd33",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49672",
+        "description": "Listening on ::1:49672 (Process: jhi_service.exe)",
+        "service": "Unknown",
+        "process": "jhi_service.exe",
+        "port": 49672,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 19.651795332s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "54a31d15441a86c8834efb72ab7edcb955ffeb85c497286c88cd715d99fe66ab",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49669",
+        "description": "Listening on :::49669 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 49669,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 19.30817129s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "5d7a2a8227cd5b7f05d37b29f2a9dba2fe089d489c28a2cd180e791d11f33361",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 5040",
+        "description": "Listening on 0.0.0.0:5040 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 5040,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 18.955727233s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "01a232b0670e43855c2639b82b6554dafd0158083537c0a314f473b3bbe99fad",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 30196",
+        "description": "Listening on 0.0.0.0:30196 (Process: RCService.exe)",
+        "service": "Unknown",
+        "process": "RCService.exe",
+        "port": 30196,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 18.60958692s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    },
+    {
+      "uid": "850a2ec68f1b76e35686806630a72b3d113e8a3c9d6a7b239e79500281803024",
+      "original_finding": {
+        "type": "missing_patch",
+        "title": "Missing patch KB999999",
+        "description": "KB999999 not present in hotfix list (demo rule)",
+        "service": "Unknown",
+        "process": "Unknown",
+        "port": null,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 18.257482456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "mitigation_techniques": [],
+        "possible_attacks": [],
+        "recommended_priority": "This Week",
+        "compliance_references": []
+      }
+    }
+  ],
+  "ai_model": "Google Gemini (gemini-2.5-flash)",
+  "prompt_type": "Detailed Remediation with Technical & Non-Technical Steps"
+}

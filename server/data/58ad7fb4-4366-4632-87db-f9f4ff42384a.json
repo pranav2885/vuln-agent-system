@@ -1,0 +1,1 @@
+{"scan_id": "test", "generated_at": "now", "host": {"hostname": "demo"}, "findings": [{"uid": "u1", "type": "open_port", "title": "Open port 3389", "port": 3389, "severity": "HIGH"}]}

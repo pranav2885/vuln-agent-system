@@ -1,0 +1,772 @@
+{
+  "scan_id": "0ec1ca991d5bd40b41ab3a7713524982ef2d2e6cc1d22a183b5e237b9e6dce0e",
+  "generated_at": "2025-11-27T18:43:19.689878Z",
+  "host": {
+    "hostname": "Mickey",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "findings": [
+    {
+      "uid": "54a31d15441a86c8834efb72ab7edcb955ffeb85c497286c88cd715d99fe66ab",
+      "type": "open_port",
+      "title": "Open port 49669",
+      "description": "Listening on 0.0.0.0:49669 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49669,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49669",
+        "pid": 3760,
+        "type": "1",
+        "port": 49669,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "dd4c3e57f1834a93c8144acef3a9572d0bf745c8f7e402a3f1668821701657d5",
+      "type": "open_port",
+      "title": "Open port 8828",
+      "description": "Listening on 127.0.0.1:8828 (Process: Code.exe)",
+      "host_ip": "Mickey",
+      "port": 8828,
+      "process_name": "Code.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:8828",
+        "pid": 12892,
+        "type": "1",
+        "port": 8828,
+        "process_name": "Code.exe",
+        "service_name": "Code.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "50c726b1538e5a0e3c58be90948c4214af257fda6e3d3c9c6f951d317bf699da",
+      "type": "open_port",
+      "title": "Open port 7680",
+      "description": "Listening on :::7680 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 7680,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::7680",
+        "pid": 964,
+        "type": "1",
+        "port": 7680,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "01a232b0670e43855c2639b82b6554dafd0158083537c0a314f473b3bbe99fad",
+      "type": "open_port",
+      "title": "Open port 30196",
+      "description": "Listening on 0.0.0.0:30196 (Process: RCService.exe)",
+      "host_ip": "Mickey",
+      "port": 30196,
+      "process_name": "RCService.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:30196",
+        "pid": 5124,
+        "type": "1",
+        "port": 30196,
+        "process_name": "RCService.exe",
+        "service_name": "RCService.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "54f995a852cf797a0dbf49933e9d59e5526cc37c9b501ea06078084aa8121ae1",
+      "type": "open_port",
+      "title": "Open port 139",
+      "description": "Listening on 192.168.56.1:139 - NetBIOS service (Process: System)",
+      "host_ip": "Mickey",
+      "port": 139,
+      "process_name": "System",
+      "service_type": "NetBIOS",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "192.168.56.1:139",
+        "pid": 4,
+        "type": "1",
+        "port": 139,
+        "process_name": "System",
+        "service_name": "System",
+        "service_type": "NetBIOS"
+      }
+    },
+    {
+      "uid": "b1e849f43804352edff0828fff45692b362c823cc5827a93cb0a49ccc6319eb1",
+      "type": "open_port",
+      "title": "Open port 49686",
+      "description": "Listening on :::49686 (Process: services.exe)",
+      "host_ip": "Mickey",
+      "port": 49686,
+      "process_name": "services.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49686",
+        "pid": 1256,
+        "type": "1",
+        "port": 49686,
+        "process_name": "services.exe",
+        "service_name": "services.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "13d8540b5accb4e538eda135e98022daf45efc873b15c59435630c33bd8323af",
+      "type": "open_port",
+      "title": "Open port 445",
+      "description": "Listening on :::445 - SMB service (Process: System)",
+      "host_ip": "Mickey",
+      "port": 445,
+      "process_name": "System",
+      "service_type": "SMB",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::445",
+        "pid": 4,
+        "type": "1",
+        "port": 445,
+        "process_name": "System",
+        "service_name": "System",
+        "service_type": "SMB"
+      }
+    },
+    {
+      "uid": "b1e849f43804352edff0828fff45692b362c823cc5827a93cb0a49ccc6319eb1",
+      "type": "open_port",
+      "title": "Open port 49686",
+      "description": "Listening on 0.0.0.0:49686 (Process: services.exe)",
+      "host_ip": "Mickey",
+      "port": 49686,
+      "process_name": "services.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49686",
+        "pid": 1256,
+        "type": "1",
+        "port": 49686,
+        "process_name": "services.exe",
+        "service_name": "services.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "13d8540b5accb4e538eda135e98022daf45efc873b15c59435630c33bd8323af",
+      "type": "open_port",
+      "title": "Open port 445",
+      "description": "Listening on 0.0.0.0:445 - SMB service (Process: System)",
+      "host_ip": "Mickey",
+      "port": 445,
+      "process_name": "System",
+      "service_type": "SMB",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:445",
+        "pid": 4,
+        "type": "1",
+        "port": 445,
+        "process_name": "System",
+        "service_name": "System",
+        "service_type": "SMB"
+      }
+    },
+    {
+      "uid": "e9f5723cbf45ae6d8ee961ad1f4dd0a57253a01b9cc3f45a42fdbf51a73dd872",
+      "type": "open_port",
+      "title": "Open port 49671",
+      "description": "Listening on :::49671 (Process: spoolsv.exe)",
+      "host_ip": "Mickey",
+      "port": 49671,
+      "process_name": "spoolsv.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49671",
+        "pid": 4664,
+        "type": "1",
+        "port": 49671,
+        "process_name": "spoolsv.exe",
+        "service_name": "spoolsv.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "63658172e2a03724121da4c71a9fce56726df981c56d0fa240c043c2b6f9be03",
+      "type": "open_port",
+      "title": "Open port 49670",
+      "description": "Listening on :::49670 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49670,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49670",
+        "pid": 3748,
+        "type": "1",
+        "port": 49670,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "8b2b3395bcdd950715cb4d22149d64c141b9d974cf00e3078ad63a50239ff52e",
+      "type": "open_port",
+      "title": "Open port 49665",
+      "description": "Listening on :::49665 (Process: wininit.exe)",
+      "host_ip": "Mickey",
+      "port": 49665,
+      "process_name": "wininit.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49665",
+        "pid": 1112,
+        "type": "1",
+        "port": 49665,
+        "process_name": "wininit.exe",
+        "service_name": "wininit.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "c1b0f67f4f117e4fa37b73bf5c2f54e363afdbdebe158f6de8610be6a6a6f617",
+      "type": "open_port",
+      "title": "Open port 3306",
+      "description": "Listening on 0.0.0.0:3306 - MySQL service (Process: mysqld.exe)",
+      "host_ip": "Mickey",
+      "port": 3306,
+      "process_name": "mysqld.exe",
+      "service_type": "MySQL",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:3306",
+        "pid": 6204,
+        "type": "1",
+        "port": 3306,
+        "process_name": "mysqld.exe",
+        "service_name": "mysqld.exe",
+        "service_type": "MySQL"
+      }
+    },
+    {
+      "uid": "9d53af163d4932e7738ae73a8b0f229d62a748a9b93e1f45a7d265224b0e45c0",
+      "type": "open_port",
+      "title": "Open port 42050",
+      "description": "Listening on ::1:42050 (Process: OneDrive.Sync.Service.exe)",
+      "host_ip": "Mickey",
+      "port": 42050,
+      "process_name": "OneDrive.Sync.Service.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "::1:42050",
+        "pid": 22128,
+        "type": "1",
+        "port": 42050,
+        "process_name": "OneDrive.Sync.Service.exe",
+        "service_name": "OneDrive.Sync.Service.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "fc11123b0a39fb28429e901dd05b5ff2cb9115cde6203a79a2e110235862030c",
+      "type": "open_port",
+      "title": "Open port 3389",
+      "description": "Listening on :::3389 - RDP service (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 3389,
+      "process_name": "svchost.exe",
+      "service_type": "RDP",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::3389",
+        "pid": 464,
+        "type": "1",
+        "port": 3389,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "RDP"
+      }
+    },
+    {
+      "uid": "dbb46ee65afbdd6ff0f1d96e52a9aa77c728bcdeef5879edcec37bd65676b3f8",
+      "type": "open_port",
+      "title": "Open port 4247",
+      "description": "Listening on 127.0.0.1:4247 (Process: Code.exe)",
+      "host_ip": "Mickey",
+      "port": 4247,
+      "process_name": "Code.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:4247",
+        "pid": 5236,
+        "type": "1",
+        "port": 4247,
+        "process_name": "Code.exe",
+        "service_name": "Code.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "54a31d15441a86c8834efb72ab7edcb955ffeb85c497286c88cd715d99fe66ab",
+      "type": "open_port",
+      "title": "Open port 49669",
+      "description": "Listening on :::49669 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49669,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49669",
+        "pid": 3760,
+        "type": "1",
+        "port": 49669,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "c1b0f67f4f117e4fa37b73bf5c2f54e363afdbdebe158f6de8610be6a6a6f617",
+      "type": "open_port",
+      "title": "Open port 3306",
+      "description": "Listening on :::3306 - MySQL service (Process: mysqld.exe)",
+      "host_ip": "Mickey",
+      "port": 3306,
+      "process_name": "mysqld.exe",
+      "service_type": "MySQL",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::3306",
+        "pid": 6204,
+        "type": "1",
+        "port": 3306,
+        "process_name": "mysqld.exe",
+        "service_name": "mysqld.exe",
+        "service_type": "MySQL"
+      }
+    },
+    {
+      "uid": "cbfaf3561dc454eeece45f955ab1a3c0e557dca4b3217423290e76abcceb71e7",
+      "type": "open_port",
+      "title": "Open port 135",
+      "description": "Listening on :::135 - RPC service (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 135,
+      "process_name": "svchost.exe",
+      "service_type": "RPC",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::135",
+        "pid": 1688,
+        "type": "1",
+        "port": 135,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "RPC"
+      }
+    },
+    {
+      "uid": "0ad6ee19588cf348359fcd5ef2d09bcf2c46235b0b7acde84d3d3ed5423dfd33",
+      "type": "open_port",
+      "title": "Open port 49672",
+      "description": "Listening on ::1:49672 (Process: jhi_service.exe)",
+      "host_ip": "Mickey",
+      "port": 49672,
+      "process_name": "jhi_service.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "::1:49672",
+        "pid": 5000,
+        "type": "1",
+        "port": 49672,
+        "process_name": "jhi_service.exe",
+        "service_name": "jhi_service.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "8b2b3395bcdd950715cb4d22149d64c141b9d974cf00e3078ad63a50239ff52e",
+      "type": "open_port",
+      "title": "Open port 49665",
+      "description": "Listening on 0.0.0.0:49665 (Process: wininit.exe)",
+      "host_ip": "Mickey",
+      "port": 49665,
+      "process_name": "wininit.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49665",
+        "pid": 1112,
+        "type": "1",
+        "port": 49665,
+        "process_name": "wininit.exe",
+        "service_name": "wininit.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "cbfaf3561dc454eeece45f955ab1a3c0e557dca4b3217423290e76abcceb71e7",
+      "type": "open_port",
+      "title": "Open port 135",
+      "description": "Listening on 0.0.0.0:135 - RPC service (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 135,
+      "process_name": "svchost.exe",
+      "service_type": "RPC",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:135",
+        "pid": 1688,
+        "type": "1",
+        "port": 135,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "RPC"
+      }
+    },
+    {
+      "uid": "54f995a852cf797a0dbf49933e9d59e5526cc37c9b501ea06078084aa8121ae1",
+      "type": "open_port",
+      "title": "Open port 139",
+      "description": "Listening on 10.1.160.55:139 - NetBIOS service (Process: System)",
+      "host_ip": "Mickey",
+      "port": 139,
+      "process_name": "System",
+      "service_type": "NetBIOS",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "10.1.160.55:139",
+        "pid": 4,
+        "type": "1",
+        "port": 139,
+        "process_name": "System",
+        "service_name": "System",
+        "service_type": "NetBIOS"
+      }
+    },
+    {
+      "uid": "cdddd8487751f73acf953a5fdc004f7d045ec3a0b13c73381e972178fdfe8f41",
+      "type": "open_port",
+      "title": "Open port 49666",
+      "description": "Listening on :::49666 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49666,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49666",
+        "pid": 2324,
+        "type": "1",
+        "port": 49666,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "5d7a2a8227cd5b7f05d37b29f2a9dba2fe089d489c28a2cd180e791d11f33361",
+      "type": "open_port",
+      "title": "Open port 5040",
+      "description": "Listening on 0.0.0.0:5040 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 5040,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:5040",
+        "pid": 9220,
+        "type": "1",
+        "port": 5040,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "50c726b1538e5a0e3c58be90948c4214af257fda6e3d3c9c6f951d317bf699da",
+      "type": "open_port",
+      "title": "Open port 7680",
+      "description": "Listening on 0.0.0.0:7680 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 7680,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:7680",
+        "pid": 964,
+        "type": "1",
+        "port": 7680,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "1d7e7cb576cd5b0938753e21b94d86dc6aae13843740e4512dfa673f6cc3544f",
+      "type": "open_port",
+      "title": "Open port 49673",
+      "description": "Listening on 127.0.0.1:49673 (Process: Code.exe)",
+      "host_ip": "Mickey",
+      "port": 49673,
+      "process_name": "Code.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:49673",
+        "pid": 12892,
+        "type": "1",
+        "port": 49673,
+        "process_name": "Code.exe",
+        "service_name": "Code.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "e9f5723cbf45ae6d8ee961ad1f4dd0a57253a01b9cc3f45a42fdbf51a73dd872",
+      "type": "open_port",
+      "title": "Open port 49671",
+      "description": "Listening on 0.0.0.0:49671 (Process: spoolsv.exe)",
+      "host_ip": "Mickey",
+      "port": 49671,
+      "process_name": "spoolsv.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49671",
+        "pid": 4664,
+        "type": "1",
+        "port": 49671,
+        "process_name": "spoolsv.exe",
+        "service_name": "spoolsv.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "8837dd242a71705d04ce3b912e72491343a7047f8d52726e1fcf957a4a7acbdd",
+      "type": "open_port",
+      "title": "Open port 8000",
+      "description": "Listening on 127.0.0.1:8000 - HTTP-Alt service (Process: python.exe)",
+      "host_ip": "Mickey",
+      "port": 8000,
+      "process_name": "python.exe",
+      "service_type": "HTTP-Alt",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "127.0.0.1:8000",
+        "pid": 9972,
+        "type": "1",
+        "port": 8000,
+        "process_name": "python.exe",
+        "service_name": "python.exe",
+        "service_type": "HTTP-Alt"
+      }
+    },
+    {
+      "uid": "fc11123b0a39fb28429e901dd05b5ff2cb9115cde6203a79a2e110235862030c",
+      "type": "open_port",
+      "title": "Open port 3389",
+      "description": "Listening on 0.0.0.0:3389 - RDP service (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 3389,
+      "process_name": "svchost.exe",
+      "service_type": "RDP",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:3389",
+        "pid": 464,
+        "type": "1",
+        "port": 3389,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "RDP"
+      }
+    },
+    {
+      "uid": "3aaa1898f393db245c0965d0fabfb8a0f163e002c43249e8018f8c6f45e50acf",
+      "type": "open_port",
+      "title": "Open port 49664",
+      "description": "Listening on :::49664 (Process: lsass.exe)",
+      "host_ip": "Mickey",
+      "port": 49664,
+      "process_name": "lsass.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::49664",
+        "pid": 1284,
+        "type": "1",
+        "port": 49664,
+        "process_name": "lsass.exe",
+        "service_name": "lsass.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "63658172e2a03724121da4c71a9fce56726df981c56d0fa240c043c2b6f9be03",
+      "type": "open_port",
+      "title": "Open port 49670",
+      "description": "Listening on 0.0.0.0:49670 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49670,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49670",
+        "pid": 3748,
+        "type": "1",
+        "port": 49670,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "cdddd8487751f73acf953a5fdc004f7d045ec3a0b13c73381e972178fdfe8f41",
+      "type": "open_port",
+      "title": "Open port 49666",
+      "description": "Listening on 0.0.0.0:49666 (Process: svchost.exe)",
+      "host_ip": "Mickey",
+      "port": 49666,
+      "process_name": "svchost.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49666",
+        "pid": 2324,
+        "type": "1",
+        "port": 49666,
+        "process_name": "svchost.exe",
+        "service_name": "svchost.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "561ef381a1450cba7fab22995025946aa08aafb2787a0e16892778f94cd59642",
+      "type": "open_port",
+      "title": "Open port 33060",
+      "description": "Listening on 0.0.0.0:33060 (Process: mysqld.exe)",
+      "host_ip": "Mickey",
+      "port": 33060,
+      "process_name": "mysqld.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:33060",
+        "pid": 6204,
+        "type": "1",
+        "port": 33060,
+        "process_name": "mysqld.exe",
+        "service_name": "mysqld.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "561ef381a1450cba7fab22995025946aa08aafb2787a0e16892778f94cd59642",
+      "type": "open_port",
+      "title": "Open port 33060",
+      "description": "Listening on :::33060 (Process: mysqld.exe)",
+      "host_ip": "Mickey",
+      "port": 33060,
+      "process_name": "mysqld.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": ":::33060",
+        "pid": 6204,
+        "type": "1",
+        "port": 33060,
+        "process_name": "mysqld.exe",
+        "service_name": "mysqld.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "3aaa1898f393db245c0965d0fabfb8a0f163e002c43249e8018f8c6f45e50acf",
+      "type": "open_port",
+      "title": "Open port 49664",
+      "description": "Listening on 0.0.0.0:49664 (Process: lsass.exe)",
+      "host_ip": "Mickey",
+      "port": 49664,
+      "process_name": "lsass.exe",
+      "service_type": "Unknown",
+      "severity": "LOW",
+      "evidence": {
+        "laddr": "0.0.0.0:49664",
+        "pid": 1284,
+        "type": "1",
+        "port": 49664,
+        "process_name": "lsass.exe",
+        "service_name": "lsass.exe",
+        "service_type": "Unknown"
+      }
+    },
+    {
+      "uid": "850a2ec68f1b76e35686806630a72b3d113e8a3c9d6a7b239e79500281803024",
+      "type": "missing_patch",
+      "title": "Missing patch KB999999",
+      "description": "KB999999 not present in hotfix list (demo rule)",
+      "host_ip": "Mickey",
+      "port": null,
+      "severity": "HIGH",
+      "evidence": [
+        {
+          "HotFixID": "KB5066128",
+          "InstalledOn": {
+            "value": "/Date(1761330600000)/",
+            "DateTime": "25 October 2025 00:00:00"
+          }
+        },
+        {
+          "HotFixID": "KB5054156",
+          "InstalledOn": {
+            "value": "/Date(1761330600000)/",
+            "DateTime": "25 October 2025 00:00:00"
+          }
+        },
+        {
+          "HotFixID": "KB5068861",
+          "InstalledOn": {
+            "value": "/Date(1762799400000)/",
+            "DateTime": "11 November 2025 00:00:00"
+          }
+        },
+        {
+          "HotFixID": "KB5067035",
+          "InstalledOn": {
+            "value": "/Date(1762799400000)/",
+            "DateTime": "11 November 2025 00:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_findings": 37
+  }
+}

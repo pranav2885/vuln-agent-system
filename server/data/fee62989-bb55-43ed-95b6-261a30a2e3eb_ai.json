@@ -1,0 +1,1779 @@
+{
+  "scan_id": "cabb04313839129a4617503b6ebfc6428e2c9381d5cfd895c10e13e648a87497",
+  "generated_at": "2025-11-28T06:58:24.902412Z",
+  "host": {
+    "hostname": "TECHNOPROBE",
+    "platform": "Windows-11-10.0.26100-SP0"
+  },
+  "total_findings": 32,
+  "summary": {
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 32,
+    "low_count": 0
+  },
+  "analyzed_findings": [
+    {
+      "uid": "b0a51c77e36d1e1242c66ff8ca3d9b50eaf2b1cf87faa99c036830a379e9dda8",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 445",
+        "description": "Listening on 0.0.0.0:445 - SMB service (Process: System)",
+        "service": "SMB",
+        "process": "System",
+        "port": 445,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 31.530346528s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 31\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "91259faf37dadced51abf8d0d2d0c6d551e6990ec359b462e2735c7a50e0102c",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 4120",
+        "description": "Listening on 127.0.0.1:4120 (Process: Code.exe)",
+        "service": "Unknown",
+        "process": "Code.exe",
+        "port": 4120,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 31.120610717s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 31\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "307f95f560e858f77088d99d39eb8dd07d0c02821eac8c2e2f701cd8cdbe6efe",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 135",
+        "description": "Listening on :::135 - RPC service (Process: svchost.exe)",
+        "service": "RPC",
+        "process": "svchost.exe",
+        "port": 135,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 30.693247184s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 30\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "05f3a04e371895c69e73bf1a11b1982300c65e60dbd84479cce589db5b21bd87",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 9013",
+        "description": "Listening on 127.0.0.1:9013 (Process: ArmourySocketServer.exe)",
+        "service": "Unknown",
+        "process": "ArmourySocketServer.exe",
+        "port": 9013,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 30.217616435s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 30\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "5f19efd9d6a2694139ce16e44a1e790c09294861ddb5879eff41fd31a1e3207e",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 1043",
+        "description": "Listening on 127.0.0.1:1043 (Process: asus_framework.exe)",
+        "service": "Unknown",
+        "process": "asus_framework.exe",
+        "port": 1043,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 29.771035s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 139",
+        "description": "Listening on 172.16.0.2:139 - NetBIOS service (Process: System)",
+        "service": "NetBIOS",
+        "process": "System",
+        "port": 139,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 29.329669362s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "3bf1f54c666f8c1a3dacc4f225f6e49afcc180b8125733c1d92d4f77e4d09dac",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 50100",
+        "description": "Listening on 127.0.0.1:50100 (Process: ArmouryCrate.Service.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrate.Service.exe",
+        "port": 50100,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 28.904937697s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "511a5307331dd7c90c32d78a1e3475525fcb30d402b41a958c4b2e81ab1da5c0",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 7768",
+        "description": "Listening on 127.0.0.1:7768 (Process: Spotify.exe)",
+        "service": "Unknown",
+        "process": "Spotify.exe",
+        "port": 7768,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 28.448441447s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "a7c87a2b18b793e1a0ed5fbefa0bd21e00c8c67628c685bb7f486f7595c1ca2f",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 53",
+        "description": "Listening on 127.0.2.2:53 - DNS service (Process: warp-svc.exe)",
+        "service": "DNS",
+        "process": "warp-svc.exe",
+        "port": 53,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 28.006134525s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "5e7cf97b947c4bc619f0fd16a98ff8ed4ddfcd98af84cb043f8cd33f34ed1a2a",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 27339",
+        "description": "Listening on 127.0.0.1:27339 (Process: System)",
+        "service": "Unknown",
+        "process": "System",
+        "port": 27339,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 27.563402349s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "4cf3fedd6df8efdecf15bccc0957da6a540a6ccac6bd63a2f683fbc32bab7605",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49667",
+        "description": "Listening on :::49667 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 49667,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 27.106160223s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "1b32fab3ac0af9ceb60cd809ac2895b0334f3fd6d2b34fd3bc3e89a62e6c0617",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49666",
+        "description": "Listening on :::49666 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 49666,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 26.666027429s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 26\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "314edcc8f51116a829c33dbf9588a37e159620d0d38c2154fe5c1fa788ece992",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 13031",
+        "description": "Listening on 127.0.0.1:13031 (Process: ArmouryCrate.Service.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrate.Service.exe",
+        "port": 13031,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 26.228967451s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 26\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "8155fc04ef89e645cdb9ce7ad0354a012032ce6cf7fc63d3b0d4730201f8a195",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 51100",
+        "description": "Listening on 127.0.0.1:51100 (Process: ArmouryCrate.UserSessionHelper.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrate.UserSessionHelper.exe",
+        "port": 51100,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 25.786771244s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 25\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "5eacb301c15ed63e0929f3ddaa3b8254a050474eee973cfd8587472b49b05085",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 22112",
+        "description": "Listening on 127.0.0.1:22112 (Process: ROGLiveService.exe)",
+        "service": "Unknown",
+        "process": "ROGLiveService.exe",
+        "port": 22112,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 25.345726697s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 25\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "a0b1af53a7e24af229b43d5b1bf938ad39a0b0da22feed42b3e5187c635cb069",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49664",
+        "description": "Listening on 0.0.0.0:49664 (Process: lsass.exe)",
+        "service": "Unknown",
+        "process": "lsass.exe",
+        "port": 49664,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 24.887476442s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "23cc0ab84ae82b4b2a7adb803600a2109507602efad0dfa58cae8fe5656050fd",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 9012",
+        "description": "Listening on 127.0.0.1:9012 (Process: ArmourySocketServer.exe)",
+        "service": "Unknown",
+        "process": "ArmourySocketServer.exe",
+        "port": 9012,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 24.44477234s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "4b3ac678167d72111fe11d17e1f3c0c32108b2f858a139b10bf11ffea9832df5",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 5040",
+        "description": "Listening on 0.0.0.0:5040 (Process: svchost.exe)",
+        "service": "Unknown",
+        "process": "svchost.exe",
+        "port": 5040,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.983208102s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "9e6c5759ed91059225b455495befa0eb1dfa04b197140753ad883018a276577f",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49665",
+        "description": "Listening on 0.0.0.0:49665 (Process: wininit.exe)",
+        "service": "Unknown",
+        "process": "wininit.exe",
+        "port": 49665,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.545031813s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "2ff166e773f9e4f82abbba8b8bdbf2730be69e3f5f8eb8b3cc9b3962f3c895b3",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 7070",
+        "description": "Listening on 0.0.0.0:7070 (Process: AnyDesk.exe)",
+        "service": "Unknown",
+        "process": "AnyDesk.exe",
+        "port": 7070,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 23.102741646s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 23\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "95822cb2e7614a4a75e611ddeef0a2446851c2fa1f3a95ae8d31ad72db05abc7",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 50923",
+        "description": "Listening on 127.0.0.1:50923 (Process: ArmouryCrateControlInterface.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrateControlInterface.exe",
+        "port": 50923,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 22.672074036s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "d3eefec7449edad9109ed701404ec92a41dacbbbe696d011e8f87252d1edf331",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49707",
+        "description": "Listening on 0.0.0.0:49707 (Process: services.exe)",
+        "service": "Unknown",
+        "process": "services.exe",
+        "port": 49707,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 22.228753046s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "9b9898a550b354b12cf35274f26b8799368a556603427c916ee4e504618d3a64",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 49668",
+        "description": "Listening on 0.0.0.0:49668 (Process: spoolsv.exe)",
+        "service": "Unknown",
+        "process": "spoolsv.exe",
+        "port": 49668,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 21.792693453s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "6fee8af527d9b413ed773933ff182fcdaca9e083f52befbc338e0746dc6b8e9d",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 13030",
+        "description": "Listening on 127.0.0.1:13030 (Process: ROGLiveService.exe)",
+        "service": "Unknown",
+        "process": "ROGLiveService.exe",
+        "port": 13030,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 21.339440069s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 21\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "5d9a31c9958c861b92ae4695c7dc3abb66713ebd049445f7660378f1f1240d3c",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 57621",
+        "description": "Listening on 0.0.0.0:57621 (Process: Spotify.exe)",
+        "service": "Unknown",
+        "process": "Spotify.exe",
+        "port": 57621,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.892558424s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "61cc745ab627f01b72b80fb332c54a42c276cbf40ed02e5aa7b0e1edbcdf6179",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 7778",
+        "description": "Listening on 127.0.0.1:7778 (Process: ArmouryCrateControlInterface.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrateControlInterface.exe",
+        "port": 7778,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.442935252s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "3d917214143379c77bf3b0aceb97898fa6627663b6a05ddd970493ccb3c8698b",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 58445",
+        "description": "Listening on 0.0.0.0:58445 (Process: Spotify.exe)",
+        "service": "Unknown",
+        "process": "Spotify.exe",
+        "port": 58445,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 20.011185041s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 20\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "f70cf594228ab906038c44562571c6d47a270bc80eedcbda8c6c4e326479b238",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 24830",
+        "description": "Listening on 127.0.0.1:24830 (Process: AsusSoftwareManager.exe)",
+        "service": "Unknown",
+        "process": "AsusSoftwareManager.exe",
+        "port": 24830,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 19.569571496s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "7f27d376e65a7dd66ebf5c97bb680a05d51861d38b855e43f27ee73e2aa8c951",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 1042",
+        "description": "Listening on 127.0.0.1:1042 (Process: asus_framework.exe)",
+        "service": "Unknown",
+        "process": "asus_framework.exe",
+        "port": 1042,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 19.100727362s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "bf0e21194e9e6455baafea1bbfddd4847c5224f4dc264e2581cce648ffc4a8f3",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 13032",
+        "description": "Listening on 127.0.0.1:13032 (Process: ArmouryCrate.Service.exe)",
+        "service": "Unknown",
+        "process": "ArmouryCrate.Service.exe",
+        "port": 13032,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 18.653080959s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "c7ce58283a631456e9b27fd0969168b0ae83fc83443d79bad68b0e08388378db",
+      "original_finding": {
+        "type": "open_port",
+        "title": "Open port 8000",
+        "description": "Listening on 127.0.0.1:8000 - HTTP-Alt service (Process: python.exe)",
+        "service": "HTTP-Alt",
+        "process": "python.exe",
+        "port": 8000,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 18.213391278s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 18\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    },
+    {
+      "uid": "8473efc1934491bd435d8ba243d343cbb6603340dc625051ec3b258391b733b3",
+      "original_finding": {
+        "type": "missing_patch",
+        "title": "Missing patch KB999999",
+        "description": "KB999999 not present in hotfix list (demo rule)",
+        "service": "Unknown",
+        "process": "Unknown",
+        "port": null,
+        "protocol": "N/A"
+      },
+      "ai_analysis": {
+        "severity": "MEDIUM",
+        "cvss_score": 5.5,
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 250, model: gemini-2.5-flash\nPlease retry in 17.834975649s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 250\n}\n, retry_delay {\n  seconds: 17\n}\n]",
+        "mitigation_techniques": [
+          {
+            "step_number": 1,
+            "title": "Review and address this vulnerability",
+            "what_to_do": "Manually investigate this finding and apply appropriate security controls",
+            "why_it_works": "Context-specific security measures reduce attack surface",
+            "non_technical_steps": [
+              "1. Research this vulnerability type online",
+              "2. Consult with IT security team",
+              "3. Apply vendor-recommended patches",
+              "4. Document the remediation steps taken"
+            ],
+            "technical_steps": [
+              "Review security advisories for this component",
+              "Apply latest security patches",
+              "Verify fix with security scanning tools"
+            ],
+            "estimated_time": "30 minutes",
+            "difficulty": "Medium",
+            "rollback_steps": [
+              "Document original configuration before changes"
+            ],
+            "verification": "Re-scan to confirm vulnerability is resolved"
+          }
+        ],
+        "possible_attacks": [
+          {
+            "attack_name": "Exploitation of vulnerability",
+            "attack_vector": "Attackers may exploit this weakness",
+            "impact": "Potential unauthorized access or data exposure",
+            "likelihood": "MEDIUM"
+          }
+        ],
+        "recommended_priority": "This Week",
+        "compliance_references": [
+          "NIST CSF",
+          "CIS Controls"
+        ]
+      }
+    }
+  ],
+  "ai_model": "Google Gemini (gemini-2.5-flash)",
+  "prompt_type": "Detailed Remediation with Technical & Non-Technical Steps"
+}

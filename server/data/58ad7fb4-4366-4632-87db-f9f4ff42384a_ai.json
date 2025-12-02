@@ -1,0 +1,21 @@
+{
+  "summary": "Found 1 findings (demo AI).",
+  "prioritized_findings": [
+    {
+      "uid": "u1",
+      "title": "Open port 3389",
+      "severity": "HIGH",
+      "recommended_steps": [
+        "Review service listening on port 3389. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 3389."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 3389"
+      ],
+      "references": []
+    }
+  ],
+  "fix_now_checklist": [
+    "Open port 3389"
+  ]
+}

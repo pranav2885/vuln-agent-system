@@ -1,0 +1,556 @@
+{
+  "summary": "Found 42 findings (demo AI).",
+  "prioritized_findings": [
+    {
+      "uid": "a0b1af53a7e24af229b43d5b1bf938ad39a0b0da22feed42b3e5187c635cb069",
+      "title": "Open port 49664",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49664. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49664."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49664"
+      ],
+      "references": []
+    },
+    {
+      "uid": "307f95f560e858f77088d99d39eb8dd07d0c02821eac8c2e2f701cd8cdbe6efe",
+      "title": "Open port 135",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 135. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 135."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 135"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9e6c5759ed91059225b455495befa0eb1dfa04b197140753ad883018a276577f",
+      "title": "Open port 49665",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49665. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49665."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49665"
+      ],
+      "references": []
+    },
+    {
+      "uid": "1b32fab3ac0af9ceb60cd809ac2895b0334f3fd6d2b34fd3bc3e89a62e6c0617",
+      "title": "Open port 49666",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49666. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49666."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49666"
+      ],
+      "references": []
+    },
+    {
+      "uid": "3bf1f54c666f8c1a3dacc4f225f6e49afcc180b8125733c1d92d4f77e4d09dac",
+      "title": "Open port 50100",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 50100. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 50100."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 50100"
+      ],
+      "references": []
+    },
+    {
+      "uid": "4cf3fedd6df8efdecf15bccc0957da6a540a6ccac6bd63a2f683fbc32bab7605",
+      "title": "Open port 49667",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49667. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49667."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49667"
+      ],
+      "references": []
+    },
+    {
+      "uid": "5eacb301c15ed63e0929f3ddaa3b8254a050474eee973cfd8587472b49b05085",
+      "title": "Open port 22112",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 22112. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 22112."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 22112"
+      ],
+      "references": []
+    },
+    {
+      "uid": "4aecf033babe731425b2e14dc91f6b85b03c9b728f82adc33c30988f15e368cd",
+      "title": "Open port 49671",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49671. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49671."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49671"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "title": "Open port 139",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 139. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 139."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 139"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "title": "Open port 139",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 139. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 139."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 139"
+      ],
+      "references": []
+    },
+    {
+      "uid": "bf0e21194e9e6455baafea1bbfddd4847c5224f4dc264e2581cce648ffc4a8f3",
+      "title": "Open port 13032",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 13032. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 13032."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 13032"
+      ],
+      "references": []
+    },
+    {
+      "uid": "314edcc8f51116a829c33dbf9588a37e159620d0d38c2154fe5c1fa788ece992",
+      "title": "Open port 13031",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 13031. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 13031."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 13031"
+      ],
+      "references": []
+    },
+    {
+      "uid": "2ff166e773f9e4f82abbba8b8bdbf2730be69e3f5f8eb8b3cc9b3962f3c895b3",
+      "title": "Open port 7070",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 7070. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 7070."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 7070"
+      ],
+      "references": []
+    },
+    {
+      "uid": "4aecf033babe731425b2e14dc91f6b85b03c9b728f82adc33c30988f15e368cd",
+      "title": "Open port 49671",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49671. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49671."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49671"
+      ],
+      "references": []
+    },
+    {
+      "uid": "61cc745ab627f01b72b80fb332c54a42c276cbf40ed02e5aa7b0e1edbcdf6179",
+      "title": "Open port 7778",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 7778. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 7778."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 7778"
+      ],
+      "references": []
+    },
+    {
+      "uid": "5d9a31c9958c861b92ae4695c7dc3abb66713ebd049445f7660378f1f1240d3c",
+      "title": "Open port 57621",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 57621. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 57621."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 57621"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9b9898a550b354b12cf35274f26b8799368a556603427c916ee4e504618d3a64",
+      "title": "Open port 49668",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49668. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49668."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49668"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9b9898a550b354b12cf35274f26b8799368a556603427c916ee4e504618d3a64",
+      "title": "Open port 49668",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49668. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49668."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49668"
+      ],
+      "references": []
+    },
+    {
+      "uid": "23cc0ab84ae82b4b2a7adb803600a2109507602efad0dfa58cae8fe5656050fd",
+      "title": "Open port 9012",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 9012. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 9012."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 9012"
+      ],
+      "references": []
+    },
+    {
+      "uid": "b0a51c77e36d1e1242c66ff8ca3d9b50eaf2b1cf87faa99c036830a379e9dda8",
+      "title": "Open port 445",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 445. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 445."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 445"
+      ],
+      "references": []
+    },
+    {
+      "uid": "f70cf594228ab906038c44562571c6d47a270bc80eedcbda8c6c4e326479b238",
+      "title": "Open port 24830",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 24830. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 24830."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 24830"
+      ],
+      "references": []
+    },
+    {
+      "uid": "7f27d376e65a7dd66ebf5c97bb680a05d51861d38b855e43f27ee73e2aa8c951",
+      "title": "Open port 1042",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 1042. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 1042."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 1042"
+      ],
+      "references": []
+    },
+    {
+      "uid": "5f19efd9d6a2694139ce16e44a1e790c09294861ddb5879eff41fd31a1e3207e",
+      "title": "Open port 1043",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 1043. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 1043."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 1043"
+      ],
+      "references": []
+    },
+    {
+      "uid": "1b32fab3ac0af9ceb60cd809ac2895b0334f3fd6d2b34fd3bc3e89a62e6c0617",
+      "title": "Open port 49666",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49666. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49666."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49666"
+      ],
+      "references": []
+    },
+    {
+      "uid": "ebdd090401116ee6129fdebfec215c6d8a2f99dbbd4f6dbfdc71616f12a0c9aa",
+      "title": "Open port 6463",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 6463. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 6463."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 6463"
+      ],
+      "references": []
+    },
+    {
+      "uid": "b0a51c77e36d1e1242c66ff8ca3d9b50eaf2b1cf87faa99c036830a379e9dda8",
+      "title": "Open port 445",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 445. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 445."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 445"
+      ],
+      "references": []
+    },
+    {
+      "uid": "95822cb2e7614a4a75e611ddeef0a2446851c2fa1f3a95ae8d31ad72db05abc7",
+      "title": "Open port 50923",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 50923. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 50923."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 50923"
+      ],
+      "references": []
+    },
+    {
+      "uid": "a0b1af53a7e24af229b43d5b1bf938ad39a0b0da22feed42b3e5187c635cb069",
+      "title": "Open port 49664",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49664. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49664."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49664"
+      ],
+      "references": []
+    },
+    {
+      "uid": "0410dd1284fb9ecabf2dfed14a4b14286186348c592815c6fdd29a6210c65f54",
+      "title": "Open port 61793",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 61793. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 61793."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 61793"
+      ],
+      "references": []
+    },
+    {
+      "uid": "8155fc04ef89e645cdb9ce7ad0354a012032ce6cf7fc63d3b0d4730201f8a195",
+      "title": "Open port 51100",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 51100. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 51100."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 51100"
+      ],
+      "references": []
+    },
+    {
+      "uid": "5e7cf97b947c4bc619f0fd16a98ff8ed4ddfcd98af84cb043f8cd33f34ed1a2a",
+      "title": "Open port 27339",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 27339. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 27339."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 27339"
+      ],
+      "references": []
+    },
+    {
+      "uid": "6fee8af527d9b413ed773933ff182fcdaca9e083f52befbc338e0746dc6b8e9d",
+      "title": "Open port 13030",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 13030. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 13030."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 13030"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9e6c5759ed91059225b455495befa0eb1dfa04b197140753ad883018a276577f",
+      "title": "Open port 49665",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49665. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49665."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49665"
+      ],
+      "references": []
+    },
+    {
+      "uid": "4b3ac678167d72111fe11d17e1f3c0c32108b2f858a139b10bf11ffea9832df5",
+      "title": "Open port 5040",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 5040. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 5040."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 5040"
+      ],
+      "references": []
+    },
+    {
+      "uid": "511a5307331dd7c90c32d78a1e3475525fcb30d402b41a958c4b2e81ab1da5c0",
+      "title": "Open port 7768",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 7768. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 7768."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 7768"
+      ],
+      "references": []
+    },
+    {
+      "uid": "2ff166e773f9e4f82abbba8b8bdbf2730be69e3f5f8eb8b3cc9b3962f3c895b3",
+      "title": "Open port 7070",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 7070. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 7070."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 7070"
+      ],
+      "references": []
+    },
+    {
+      "uid": "307f95f560e858f77088d99d39eb8dd07d0c02821eac8c2e2f701cd8cdbe6efe",
+      "title": "Open port 135",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 135. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 135."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 135"
+      ],
+      "references": []
+    },
+    {
+      "uid": "05f3a04e371895c69e73bf1a11b1982300c65e60dbd84479cce589db5b21bd87",
+      "title": "Open port 9013",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 9013. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 9013."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 9013"
+      ],
+      "references": []
+    },
+    {
+      "uid": "c7ce58283a631456e9b27fd0969168b0ae83fc83443d79bad68b0e08388378db",
+      "title": "Open port 8000",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 8000. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 8000."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 8000"
+      ],
+      "references": []
+    },
+    {
+      "uid": "9f0d4a1404b5066c523c90e8f8c6ecf188f66b789fee4c39049404bfc38d3c77",
+      "title": "Open port 139",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 139. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 139."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 139"
+      ],
+      "references": []
+    },
+    {
+      "uid": "4cf3fedd6df8efdecf15bccc0957da6a540a6ccac6bd63a2f683fbc32bab7605",
+      "title": "Open port 49667",
+      "severity": "LOW",
+      "recommended_steps": [
+        "Review service listening on port 49667. If not needed, stop the service.",
+        "Restrict access with Windows Firewall for port 49667."
+      ],
+      "verification_commands": [
+        "netstat -ano | findstr 49667"
+      ],
+      "references": []
+    },
+    {
+      "uid": "8473efc1934491bd435d8ba243d343cbb6603340dc625051ec3b258391b733b3",
+      "title": "Missing patch KB999999",
+      "severity": "HIGH",
+      "recommended_steps": [
+        "Install the missing patch mentioned (demo).",
+        "Reboot the machine and verify hotfix installed."
+      ],
+      "verification_commands": [
+        "Get-HotFix | Where-Object {$_.HotFixID -eq 'KB999999'}"
+      ],
+      "references": []
+    }
+  ],
+  "fix_now_checklist": [
+    "Open port 49664",
+    "Open port 135",
+    "Open port 49665"
+  ]
+}
